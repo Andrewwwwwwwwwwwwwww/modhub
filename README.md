@@ -1,6 +1,6 @@
 # ModHub
 
-A documentation hub for JonahsNotMyName's Minecraft mods, built with [Astro Starlight](https://starlight.astro.build/) and deployed to GitHub Pages.
+A documentation hub ([ModHub](https://andrewwwwwwwwwwwwwww.github.io/modhub/)) for JonahsNotMyName's Minecraft mods, built with [Astro Starlight](https://starlight.astro.build/) and deployed to GitHub Pages.
 
 The home page is a mod picker; each mod has its own page with overview, install, features, config, and download links.
 
