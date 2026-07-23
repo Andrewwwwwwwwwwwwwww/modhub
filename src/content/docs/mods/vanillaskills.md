@@ -83,9 +83,10 @@ Rose Gold is the "fast but low harvest tier" pick — it mines quickly but, like
 
 The top tier is a small end-game quest chain:
 
-1. **Dragon Scales** drop from **phantoms** — the tier's crafting and repair material.
+1. **Dragon Scales** drop from **The Ender Dragon (8x)** — the tier's crafting and repair material.
 2. A **Dragon Ingot** is forged by surrounding a **Netherite Ingot with eight Dragon Scales**.
-3. **Dragon gear** is made at a **smithing table** from netherite gear + Dragon Ingots (smithing-only; repaired with more Dragon Ingots).
+3. **Dragon gear** is made at a **smithing table** from netherite gear + Dragon Ingots + A Dragon Template
+4. Fully repair with 1 Dragon Ingots and 20 levels (this fully fixes one piece of gear)
 
 Two signature perks:
 
