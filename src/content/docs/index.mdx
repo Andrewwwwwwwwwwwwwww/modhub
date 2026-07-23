@@ -1,0 +1,78 @@
+---
+title: ModHub
+description: Documentation and downloads for Andrew's Minecraft mods, all in one place.
+template: splash
+hero:
+  tagline: Every mod in one place — what each one does, how to set it up, and where to get it.
+  actions:
+    - text: Browse the mods
+      link: /modhub/mods/vanillaskills/
+      icon: right-arrow
+      variant: primary
+    - text: GitHub
+      link: https://github.com/Andrewwwwwwwwwwwwwww
+      icon: external
+      variant: minimal
+---
+
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Pick a mod
+
+<CardGrid>
+	<LinkCard
+		title="VanillaSkills"
+		href="/modhub/mods/vanillaskills/"
+		description="A skill tree, tiered gear, quests, shards, a shop and feats — for Fabric and NeoForge."
+	/>
+	<LinkCard
+		title="The Hungering Portal"
+		href="/modhub/mods/thp/"
+		description="Feed the End portal a ritual of offerings and a gathering of players, then face a deadlier dragon."
+	/>
+	<LinkCard
+		title="Villager Shop"
+		href="/modhub/mods/villagershop/"
+		description="Player-run villager shops with stock, payments and a trade editor."
+	/>
+	<LinkCard
+		title="Spawn Management"
+		href="/modhub/mods/spawnmanager/"
+		description="Fine-grained control over how and where mobs spawn."
+	/>
+	<LinkCard
+		title="VS - Textures"
+		href="/modhub/mods/vs-textures/"
+		description="The VanillaSkills gear and item textures as a standalone resource pack."
+	/>
+	<LinkCard
+		title="Holograms"
+		href="/modhub/mods/holograms/"
+		description="Server-side floating text holograms using display entities."
+	/>
+	<LinkCard
+		title="ServerStatusDiscord"
+		href="/modhub/mods/serverstatusdiscord/"
+		description="Post live server status and player counts to a Discord channel."
+	/>
+	<LinkCard
+		title="UsefulCarts"
+		href="/modhub/mods/usefulcarts/"
+		description="Decorative and functional carts — an MIT port of NiftyCarts."
+	/>
+	<LinkCard
+		title="SimpleLandClaim"
+		href="/modhub/mods/simplelandclaim/"
+		description="Claim and protect your land from griefing."
+	/>
+	<LinkCard
+		title="Fallen"
+		href="/modhub/mods/fallen/"
+		description="A lootable corpse holds your items and XP on death until you reclaim it."
+	/>
+	<LinkCard
+		title="Fallen: Backpacked"
+		href="/modhub/mods/fallen-backpacked/"
+		description="Compatibility add-on so Backpacked backpacks go into your Fallen corpse."
+	/>
+</CardGrid>
