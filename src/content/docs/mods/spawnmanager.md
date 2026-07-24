@@ -13,7 +13,6 @@ A server-side mod that pins your world spawn to an exact block, locks down the a
 ## Download
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/spawn-management)
-- [GitHub](https://github.com/Andrewwwwwwwwwwwwwww/spawnmanager)
 
 ## Features
 

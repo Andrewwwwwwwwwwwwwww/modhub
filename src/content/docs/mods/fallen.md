@@ -11,10 +11,6 @@ When you die, your stuff normally scatters across the ground and ticks down to n
 - **Fabric** with Fabric API
 - Install on **both the client and the server** — this is not a server-only mod.
 
-## Download
-
-- [GitHub — 26.2](https://github.com/Andrewwwwwwwwwwwwwww/fallen) · [GitHub — 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/fallen-mc26.1.2)
-
 ## Features
 
 - **Your body, your skin** — the corpse renders as you, matching your wide or slim model, lying where you died. The owner's name is on the loot screen, not floating over the world.

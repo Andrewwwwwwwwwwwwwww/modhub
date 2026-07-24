@@ -14,7 +14,6 @@ A collection of decorative and functional carts you attach to a mob with a lead 
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/usefulcarts)
 - [Modrinth](https://modrinth.com/mod/useful-carts)
-- [GitHub — 26.2](https://github.com/Andrewwwwwwwwwwwwwww/usefulcarts) · [GitHub — 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/usefulcarts-mc26.1.2)
 
 ## The carts
 
