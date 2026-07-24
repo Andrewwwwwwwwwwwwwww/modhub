@@ -18,7 +18,7 @@ Let players set up their own villager-run shops. An owner spawns a shop villager
 ## Features
 
 - **Owner setup menu** — right-click your shop villager to manage it: rename the shop, change the villager's profession and biome variant, rotate it, toggle a glow outline, and remove it.
-- **Trade editor** — add trades, set the goods sold and the price items, and manage each trade's stock. Trades grey out when their stock runs dry.
+- **Trade editor** — add trades, set the goods sold and the price items, and manage each trade's stock. Left-click an existing trade to adjust its price with +/- buttons; right-click to remove it. Trades grey out when their stock runs dry.
 - **Stock & payments** — a stock container holds what you're selling (sold goods are deducted from it), and a separate collected-payments screen is where you withdraw what customers paid.
 - **`/shop` commands** — create shops, list your shops or all shops, rename, and remove (items are returned to you).
 - **Fully localized** — every menu, the trade editor, and all command messages are translatable per player. English and **Traditional Chinese (zh_tw)** ship built in.
