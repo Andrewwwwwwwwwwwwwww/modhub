@@ -10,10 +10,6 @@ Keep your community in the loop: **ServerStatusDiscord** posts online/offline em
 - Minecraft **26.2**, **Fabric** with Fabric API
 - Server-side.
 
-## Download
-
-- [GitHub](https://github.com/Andrewwwwwwwwwwwwwww/ssd)
-
 ## Features
 
 - **Online/offline embeds** — a coloured embed is sent to your webhook when the server starts and stops.

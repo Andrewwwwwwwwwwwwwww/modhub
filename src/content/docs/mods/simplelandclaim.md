@@ -14,7 +14,6 @@ A land-claim and grief-protection mod that's fully server-side — vanilla clien
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/slc-simplelandclaim)
 - [Modrinth](https://modrinth.com/mod/slc-simplelandclaim)
-- [GitHub](https://github.com/Andrewwwwwwwwwwwwwww/shopguard)
 
 ## Claiming (golden shovel)
 

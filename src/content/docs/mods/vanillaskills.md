@@ -14,7 +14,6 @@ VanillaSkills adds real progression on top of vanilla: a **15-lane skill tree** 
 ## Download
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/vanilla-skills)
-- [GitHub — Fabric](https://github.com/Andrewwwwwwwwwwwwwww/vanillaskills) · [GitHub — NeoForge](https://github.com/Andrewwwwwwwwwwwwwww/vanillaskills-neoforge)
 
 ## How you earn shards
 
