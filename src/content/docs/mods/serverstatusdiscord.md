@@ -10,6 +10,10 @@ description: A single-server Minecraft <-> Discord bridge — live status in a c
 - Minecraft **26.2**, **Fabric** with Fabric API
 - Server-side (vanilla clients are fine).
 
+## Download
+
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/server-status-to-discord)
+
 ## Features
 
 - **Live status in the chat channel topic** — the chat channel's topic shows a live status line, e.g. `✅ 2/12 player(s) online | Server started <14 hours ago> | Last updated: <today 6:40 PM>`, using Discord's live timestamp pills. It becomes `🛑 Server offline …` when the server stops.
