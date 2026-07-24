@@ -14,7 +14,7 @@ The End portal doesn't simply open anymore — it **hungers**. Before anyone can
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/the-hungering-portal)
 - [Modrinth](https://modrinth.com/mod/thp-the-hungering-portal)
-- [GitHub](https://github.com/Andrewwwwwwwwwwwwwww/thp)
+- [GitHub — 26.2](https://github.com/Andrewwwwwwwwwwwwwww/thp) · [GitHub — 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/thp-mc26.1.2)
 
 ## The ritual
 
@@ -40,4 +40,5 @@ Beyond the portal waits a reworked, **multi-phase Ender Dragon** — five phases
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/the-hungering-portal)
 - [Modrinth](https://modrinth.com/mod/thp-the-hungering-portal)
-- [GitHub](https://github.com/Andrewwwwwwwwwwwwwww/thp)
+- [GitHub — 26.2](https://github.com/Andrewwwwwwwwwwwwwww/thp)
+- [GitHub — 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/thp-mc26.1.2)
