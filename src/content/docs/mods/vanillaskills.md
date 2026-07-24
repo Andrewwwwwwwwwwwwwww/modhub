@@ -15,6 +15,15 @@ VanillaSkills adds real progression on top of vanilla: a **15-lane skill tree** 
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/vanilla-skills)
 
+## Playing via the SBSMP modpack
+
+VanillaSkills is the centerpiece of **SBSMP (VanillaSkillsPlus)**, a ready-to-play modpack that bundles it with the rest of the server's mods. It comes as two separate CurseForge downloads:
+
+- **[Player pack](https://www.curseforge.com/minecraft/modpacks/vsp-player-pack)** — for anyone *joining* the server. Install it through the CurseForge (or Prism) launcher; it pulls VanillaSkills and every other mod automatically. Launch it and connect to the server's address — nothing to configure.
+- **[Server pack](https://www.curseforge.com/minecraft/modpacks/vsp-server-pack)** — for whoever *hosts* the server. Download it, unzip it on your host machine (or upload it to your hosting panel), open `eula.txt` and set `eula=true`, then run the included start script (`start.bat` on Windows, `start.sh` on Linux). It boots a Fabric server with all the server-side mods already in place. Once it's up, share your server's IP with players so they can connect using the Player pack.
+
+You don't need both — players only need the Player pack, and a host only needs the Server pack.
+
 ## How you earn shards
 
 There are two currencies:
