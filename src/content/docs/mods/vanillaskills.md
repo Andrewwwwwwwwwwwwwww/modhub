@@ -147,6 +147,11 @@ Reload it live with `/skill reload`.
 
 Every menu, message, item name and advancement is translatable **per player**, from the language their client reports. **English** and **Traditional Chinese (zh_tw)** ship complete (612 keys). To add a language, start from `en_us.json` in the repo, translate the values only, and it can be bundled into both the mod and the pushed texture pack.
 
+## Add-ons
+
+- **[Casino](/modhub/mods/vscasino/)** — adds a casino to the skill screen: slots, blackjack and
+  video poker, all played with your Quest Shards.
+
 ## Links
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/vanilla-skills)

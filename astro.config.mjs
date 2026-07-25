@@ -19,17 +19,28 @@ export default defineConfig({
 				{
 					label: 'Mods',
 					items: [
-						{ label: 'VanillaSkills', link: '/mods/vanillaskills/' },
+						{
+							label: 'VanillaSkills',
+							items: [
+								{ label: 'Overview', link: '/mods/vanillaskills/' },
+								{ label: 'Casino add-on', link: '/mods/vscasino/' },
+								{ label: 'VS - Textures', link: '/mods/vs-textures/' },
+							],
+						},
+						{
+							label: 'Fallen',
+							items: [
+								{ label: 'Overview', link: '/mods/fallen/' },
+								{ label: 'Backpacked add-on', link: '/mods/fallen-backpacked/' },
+							],
+						},
 						{ label: 'The Hungering Portal', link: '/mods/thp/' },
 						{ label: 'Villager Shop', link: '/mods/villagershop/' },
 						{ label: 'Spawn Management', link: '/mods/spawnmanager/' },
-						{ label: 'VS - Textures', link: '/mods/vs-textures/' },
 						{ label: 'Holograms', link: '/mods/holograms/' },
 						{ label: 'ServerStatusDiscord', link: '/mods/serverstatusdiscord/' },
 						{ label: 'UsefulCarts', link: '/mods/usefulcarts/' },
 						{ label: 'SimpleLandClaim', link: '/mods/simplelandclaim/' },
-						{ label: 'Fallen', link: '/mods/fallen/' },
-						{ label: 'Fallen: Backpacked', link: '/mods/fallen-backpacked/' },
 					],
 				},
 			],
