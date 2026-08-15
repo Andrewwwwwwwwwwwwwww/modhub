@@ -212,7 +212,6 @@ For anything larger than a number — new quests, different shop stock, a rewrit
 | `/skill reset <player>` | Refund all of a player's unlocks |
 | `/skill recalc <player>` | Recompute earned Shards from advancements |
 | `/skill reload` | Reload the world config and language files |
-| `/skill regenpoints` | Reset `points.json` (advancement values) to defaults |
 | `/skill give <item> [n] [player]` | Give any VanillaSkills item — `/skill give list` shows every id |
 | `/skill mending on\|off` | Allow or strip the Mending enchantment |
 | `/quests board [remove\|refresh]` | Place, remove or re-render a physical bounty board |
