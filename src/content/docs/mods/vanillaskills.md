@@ -117,7 +117,7 @@ The top tier is a small end-game quest chain:
 
 Two signature perks:
 
-- **Dragon + Elytra fusion** — combine an Elytra into the **Dragon chestplate** and it gains gliding while keeping full Dragon armor. The elytra is stored inside the item, so you can split them apart later with **both** items' enchantments intact — they're never merged.
+- **Dragon + Elytra fusion** — **drop an Elytra and a Dragon chestplate together on top of an anvil** and they fuse into one chestplate that glides while keeping full Dragon armor. To undo it, **drop the fused chestplate on a grindstone** and it splits back into the two items. The elytra is stored inside the chestplate rather than merged into it, so **both** come back out with their own enchantments intact. (Dropped items on the block, not the anvil GUI — combining an elytra in the anvil screen is not something Minecraft supports.)
 - **Deepslate insta-mine** — the Dragon pickaxe carries +18 mining efficiency. With **Efficiency V + Haste II + a fully-leveled Prospector lane**, it **instantly breaks deepslate**.
 
 ## The Infusing Table
