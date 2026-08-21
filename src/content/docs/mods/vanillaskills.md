@@ -34,15 +34,15 @@ Everything that used to cost levels now costs Skill Shards — anvil work, and t
 
 ## The two currencies
 
-- **Skill Shards** — earned by completing **advancements** (both vanilla and VanillaSkills' own). They pay for most of the skill tree, anvil costs and infusing. Only real advancements count; datapack advancements (e.g. VanillaTweaks) do not.
+- **Skill Shards** — mainly from **advancements**, and also from shard ore, structure chests, piglin bartering, broken spawners, the wandering trader and crates. They pay for most of the skill tree, anvil costs and infusing. Advancements only count if their namespace is listed in `countedNamespaces` (`minecraft`, `vanillaskills` and `thp` by default), which keeps a 300-advancement datapack from printing money.
 - **Quest Shards** — earned from **Bounty Board** quests. They pay for the gear-unlock lanes (Armorsmith and Toolsmith) and the Quest Shop. Convert 3 Quest Shards into 1 Skill Shard at the shop, one way only.
 
 ## Skill Shards are a real item
 
 Skill Shards are not just a number any more. Withdraw them from the skill tree as **Unstable Skill Shards**, and right-click one to bank it again — so they can be traded, stored or handed to another player.
 
-- **Unstable Skill Shard Block** — nine shards compressed. It also **generates naturally** in all three dimensions, deep underground, and is the mod's ore. Only a **Crystalline-or-better pickaxe** can harvest it; anything weaker shatters it for nothing.
-- **Stable Skill Shard Block** — crafted, not found. It **damages hostile mobs** in a 3-block radius every second, **merges** with adjacent blocks (up to 4) to widen that area, is **immune to explosions**, and works as a **beacon base** with triple range and a bonus amplifier level.
+- **Unstable Skill Shard Block** — nine shards compressed. It is **reinforced deepslate**, taken over outright: ancient cities generate obsidian instead, so the only reinforced deepslate in the world is this. It also **generates naturally** in all three dimensions, deep underground, and is the mod's ore. Only a **Netherite, Crystalline or Dragon pickaxe** can harvest it; anything weaker shatters it for nothing.
+- **Stable Skill Shard Block** — crafted, not found; it is **lodestone**, whose vanilla recipe is removed. It **damages hostile mobs** in a 3-block radius every second, **merges** with adjacent blocks (up to 4) to widen that area, is **immune to explosions**, and works as a **beacon base** with triple range and a bonus amplifier level.
 
 ## The skill tree
 
@@ -87,6 +87,8 @@ Five craftable tiers extend the vanilla ladder. Each is built on a vanilla base 
 Set bonuses are checked live — take off one piece and the bonus reverts instantly. For reference, Crystalline sits between diamond and netherite; Dragon is clearly above netherite (24 armor vs 20, toughness 4 vs 3).
 
 Steel's weight is the price of its 18 armor: it is the sturdiest mid-tier by a wide margin, and the only one that costs you speed.
+
+Steel is smelted rather than crafted: an **iron block** in a furnace or blast furnace yields **three Steel Ingots**.
 
 ### Tools
 
@@ -157,8 +159,15 @@ Crates are datapack-defined, so a server can add its own, change any loot table,
 - **Bounty Board** — new players work a fixed 15-quest starter board, then graduate to a shared board of 6 quests that rerolls every 5 hours. Rewards are **Quest Shards**.
 - **Quest Shop** — 8 offers, restocked daily, bought with Quest Shards or Skill Shards. Stock runs from food and building blocks up to **enchanted books**, which are capped at level I–II and priced well above everything else: a shelved book is permanent, so two cheap ones combined at an anvil is meant to be the route to a high level.
 - **Feats** — one-time achievements for discoveries, bosses and the End.
+- **Wandering trader** — buys raw materials from you for **Skill Shards**: iron, netherite scrap, crops and blocks. Priced above what the same items fetch as a quest turn-in, and keeping vanilla's behaviour that an X-ed out offer never restocks.
 
 All three are datapack-defined.
+
+## Using other mods
+
+Any mod's advancements can pay Skill Shards: add its namespace to `countedNamespaces` in `<world>/vanillaskills/points.json`. `thp` ships in the default because [The Hungering Portal](/modhub/mods/thp/) is a sibling mod whose End-fight advancements are meant to feed this progression.
+
+Adding one mid-world is safe. A newly added mod completes its root advancement — and anything keyed on items or statistics the player already has — the instant they next log in. Those are recorded but worth **zero**, so nobody gets a windfall for doing nothing, and they cannot pay out later either.
 
 ## Advancements
 
@@ -166,7 +175,7 @@ VanillaSkills adds its own advancement tree (crafting each alloy and set, forgin
 
 ## Textures on vanilla clients
 
-On join, the server pushes a **resource pack** so the custom gear and item names render even for players with no mod installed. The same textures are available on their own as [VS - Textures](/modhub/mods/vs-textures/). Pack pushing can be turned off in the config if you host your own.
+On join, the server pushes a **resource pack** so the custom gear and item names render even for players with no mod installed. Single player needs no download — the jar carries the same textures. The same textures are available on their own as [VS - Textures](/modhub/mods/vs-textures/). Pack pushing can be turned off in the config if you host your own.
 
 ## Configuration
 
@@ -187,6 +196,8 @@ Per-world file at `<world>/vanillaskills/gameplay.json`. Reload it live with `/s
 | `questsPerRotation` (1–6) / `questShopSlots` | Board and shop size. |
 | `bountyRefreshHours` / `shopRefreshHours` | Rotation timers. |
 | `feats` / `starterQuests` | Turn feats on, and whether new players get the starter board. |
+| `guideUrl` | Where the Guide icon sends players. Blank opens the in-game book instead. |
+| `advancementLoginGraceMs` | How long after login an advancement completing is worth nothing, so adding a mod mid-world does not pay out on sight. |
 | `netherRoofDamage`, `dragonScaleDrop`, `dragonRepairCost`, resource-pack push, and more | Fine-tuning toggles. |
 
 For anything larger than a number — new quests, different shop stock, a rewritten skill tree, your own crates — add a datapack under `data/<namespace>/vanillaskills/`. The mod ships its own content the same way, so a pack can extend or replace any of it, following the same merge rules as vanilla tags.
