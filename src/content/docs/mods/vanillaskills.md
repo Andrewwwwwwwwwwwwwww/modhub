@@ -17,6 +17,22 @@ Almost all of its content — the skill tree, quests, shop, crates and feats —
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/vanilla-skills)
 
+## Upgrading from 1.7.x
+
+**2.0 is a breaking release. Back up your world, and test the upgrade on a copy first** — the save changes are one way.
+
+What carries over on its own:
+
+- **Gear** keeps working. Pieces crafted before 2.0 are repointed to the new textures as their owner logs in; their markers, enchantments, damage and anvil names are untouched.
+- **Skill points, unlocked nodes and bounty progress** carry over. Quests move from list positions to stable ids automatically.
+
+What needs a decision:
+
+- **Two vanilla blocks change meaning.** Reinforced deepslate becomes the Unstable Skill Shard Block and lodestone the Stable one. Ancient cities only generate obsidian in *newly generated* chunks, so cities already in your world keep their reinforced deepslate and become farmable.
+- **Experience is removed** by default, so existing levels stop mattering and the XP bar shows banked Skill Shards instead. Set `experienceEnabled` to put vanilla experience back.
+- **Steel moved** from the anvil to the furnace: an iron block smelts into three ingots.
+- Some commands were removed, and `/skill points` is now `/skill skillshards`.
+
 ## Playing via the VSP modpack
 
 VanillaSkills is the centerpiece of **VanillaSkillsPlus (VSP)**, a ready-to-play modpack that bundles it with the rest of the server's mods. It comes as two separate CurseForge downloads:
