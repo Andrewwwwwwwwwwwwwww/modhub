@@ -16,10 +16,10 @@ When you die, your stuff normally scatters across the ground and ticks down to n
 - **Your body, your skin** — the corpse renders as you, matching your wide or slim model, lying where you died. The owner's name is on the loot screen, not floating over the world.
 - **Everything is kept** — your whole inventory and your XP go into the body. Nothing scatters, nothing burns.
 - **Items go back where they belong** — reclaiming returns each item to its original slot (armor to armor, offhand to offhand). Sneak-right-click sweeps it all back at once. You only ever take *out* of a body, never put things in.
-- **Settles like a real body** — a corpse drops to the ground where you died instead of hanging in the air, floats on the surface of lava or water, and over the void is held just inside the world — so your loot is never left sunk, burning, or out of reach.
+- **Settles like a real body** — a corpse drops to the ground where you died instead of hanging in the air, floats on still lava or water, and over the void is held just inside the world. In flowing lava or water it rests on the nearest open surface rather than riding the fall down or lying hidden under the flow — your loot is never left sunk, burning, or out of reach. Currents can't drag it, and a knocked body falls back and re-settles.
 - **Yours until it's bone** — for a day, only you (and operators) can loot your body; once it ages into a skeleton it becomes fair game for anyone. Both times are configurable, and it can stay yours for good.
 - **Never spills your loot** — reclaiming only takes what fits. If your pack is full, the rest stays in the body until you have room, so nothing is ever dropped into lava or the void from under you.
-- **Trinkets-aware** — with Trinkets installed, equipped accessories are stored in the body too instead of vanishing on death, and handed back when you recover it.
+- **Trinkets & Traveler's Backpack aware** — with Trinkets installed, equipped accessories are stored in the body too instead of vanishing on death; a worn Traveler's Backpack likewise goes into the corpse (instead of being dropped at the death spot, where lava burned it) and returns to your back on recovery. Both are soft compat — neither mod is required.
 - **Nothing is ever lost** — a body left far too long drops its contents instead of vanishing.
 
 ## Death History (press U)
