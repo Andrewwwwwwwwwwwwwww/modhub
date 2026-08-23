@@ -23,7 +23,7 @@ Almost all of its content — the skill tree, quests, shop, crates and feats —
 
 What carries over on its own:
 
-- **Gear** keeps working. Pieces crafted before 2.0 are repointed to the new textures as their owner logs in; their markers, enchantments, damage and anvil names are untouched.
+- **Gear** keeps working. Pieces crafted before 2.0 are repointed to the new textures as their owner logs in. That now includes the two cases that used to slip through: a piece that had lost its marker altogether and was rendering as a plain vanilla sword or helmet, and gear sitting **inside a shulker box** rather than loose in the inventory. Enchantments, damage and anvil names are untouched.
 - **Skill points, unlocked nodes and bounty progress** carry over. Quests move from list positions to stable ids automatically.
 
 What needs a decision:
@@ -148,6 +148,12 @@ The enchanting table becomes the **Infusing Table** — same block, no lapis, no
 - **Books are not consumed.** Shelve a book once and that enchantment is available forever — which is why the Quest Shop sells low-level books, and why anvils no longer apply books directly to gear.
 
 Anvils still combine two books together, and still charge Skill Shards.
+
+## The Satchel
+
+Portable storage for players who are nowhere near an End city yet. Surround a **chest with eight leather** and you get a **Satchel** — a brown shulker box under the name, so it holds 27 stacks, keeps everything inside when you break it, and travels full.
+
+It costs no shards and sits behind no skill node. The recipe appears in your recipe book as soon as you are holding the leather.
 
 ## Crates
 
