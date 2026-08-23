@@ -24,7 +24,12 @@ When you die, your stuff normally scatters across the ground and ticks down to n
 
 ## Death History (press U)
 
-A built-in moderation and recovery tool. Every death is recorded permanently. A **green check** means the body is still out there; a **red X** means it's gone. Open any record for a **read-only snapshot** of exactly what was carried at the moment of death — accurate even after the body was looted. Operators can review any player's history.
+A built-in moderation and recovery tool. Every death is recorded permanently. A **green check** means the body is still out there; a **red X** means it's gone. Open any record for a **read-only snapshot** of exactly what was carried at the moment of death — accurate even after the body was looted. Operators can review any player's history with `/deathhistory <player>`.
+
+**Operator body tools** — no death is ever unrecoverable:
+
+- **Respawn** (on red-X records) re-creates the body at the recorded death spot from the record's full snapshot: every item in its original slot, the XP, and stored backpacks/accessories. Refused while the body still exists, so it can never duplicate one.
+- **Move** (on green-check records) teleports the existing body to the operator — across dimensions if needed — the rescue for a body that's stuck somewhere unreachable or invisible. If the body genuinely can't be found, the record is marked lost and its button flips to Respawn.
 
 ## Configuration
 
