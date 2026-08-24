@@ -7,7 +7,7 @@ Let players set up their own villager-run shops. An owner spawns a shop villager
 
 ## Requirements
 
-- Minecraft **26.2**, **Fabric** with Fabric API
+- Minecraft **26.2** or **26.1.2**, **Fabric** with Fabric API
 - Server-side friendly — menus and messages are drawn per player from the server, so vanilla clients work too.
 
 ## Download

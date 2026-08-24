@@ -3,7 +3,7 @@ title: The Hungering Portal
 description: Feed the End portal a ritual of offerings and a gathering of players, then face a deadlier, multi-phase dragon.
 ---
 
-The End portal doesn't simply open anymore — it **hungers**. Before anyone can step through, it must be fed: a ritual of rare offerings laid at the frame and witnessed by a gathering of players. Only then does the way open... to a far deadlier End.
+The End portal doesn't simply open anymore — it **hungers**. Even lit with twelve eyes of ender, it won't take anyone: it must be fed a ritual of rare offerings, thrown into the portal itself and witnessed by a gathering of players. Only then does the way open... to a far deadlier End.
 
 ## Requirements
 
@@ -17,13 +17,13 @@ The End portal doesn't simply open anymore — it **hungers**. Before anyone can
 
 ## The ritual
 
-Bring the portal what it craves and offer each one up by dropping it at the frame:
+Bring the portal what it craves and throw each offering **into the lit portal**:
 
 - A **Trident**, a **Netherite Block**, a **Sniffer Egg**, an **Enchanted Golden Apple**
 - A **Totem of Undying**, a **Beacon**, a **Mace**
 - **Sixteen Wither Roses**, a **Conduit**, and a **Zombie Head**
 
-With every offering placed **and enough players present as witnesses**, the portal opens. Fall short and it grows impatient — it seals itself and hands your offerings back.
+With every offering placed **and enough players present as witnesses**, the portal opens — world-wide, permanently. Stall too long between offerings and it grows impatient, returning everything thrown to whoever threw it.
 
 ## Tracking the ritual
 

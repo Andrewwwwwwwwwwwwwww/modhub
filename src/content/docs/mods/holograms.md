@@ -7,7 +7,7 @@ Create floating holograms on your server using vanilla **display entities** (`te
 
 ## Requirements
 
-- Minecraft **26.1.2**, **Fabric** with Fabric API
+- Minecraft **26.2**, **Fabric** with Fabric API
 - Server-side; vanilla clients supported.
 
 ## Features

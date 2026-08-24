@@ -18,18 +18,22 @@ A collection of decorative and functional carts you attach to a mob with a lead 
 ## The carts
 
 - **Supply Cart** — a mobile chest: haul your inventory around behind a horse or on foot.
-- **Animal Cart** — load animals into it and cart them home instead of leading a long train of mobs.
+- **Hand Cart** — a smaller carry-all you pull yourself.
+- **Wagon** — the big hauler of the family.
+- **Animal Cart** — two seats for animals or players; cart mobs home instead of leading a long train.
 - **Plow** — tills the soil in a swath as you pull it across a field.
-- **Seeder** — plants seeds in the rows behind you as you go.
+- **Seed Drill** — plants seeds in the rows behind you as you go.
+- **Reaper** — harvests crops as it's pulled through the field.
 
 Hitch a cart to a rideable or leashable mob, or drag it yourself. Carts are craftable from wood, wheels, and the tool that fits their job.
 
 ## Credits & license
 
-UsefulCarts is released under the **MIT license**. Original NiftyCarts by MennoMax (2019) and jmb05 (2023); this is a maintained port, not affiliated with the original authors.
+UsefulCarts is released under the **MIT license**, with the original copyright retained. It's a version port of **NiftyCarts** by jmb05, itself a Fabric port of **AstikorCarts** by MennoMax — all original code and assets belong to their authors, and this project isn't affiliated with them.
 
 ## Links
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/usefulcarts)
 - [Modrinth](https://modrinth.com/mod/useful-carts)
-- [GitHub](https://github.com/Andrewwwwwwwwwwwwwww/usefulcarts)
+- [GitHub — 26.2](https://github.com/Andrewwwwwwwwwwwwwww/usefulcarts)
+- [GitHub — 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/usefulcarts-mc26.1.2)
