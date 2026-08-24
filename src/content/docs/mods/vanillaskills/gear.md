@@ -3,11 +3,11 @@ title: "VanillaSkills: Gear & crafting"
 description: The five gear tiers, the Dragon end-game chain, the Infusing Table, the re-priced anvil, the Satchel and the mining gates.
 ---
 
-The crafting half of **[VanillaSkills](/modhub/mods/vanillaskills/)**: five tiers of gear above vanilla's, and the stations that enchant and repair them.
+The crafting half of **[VanillaSkills](/modhub/mods/vanillaskills/)**: five tiers of gear woven in between the vanilla tiers, and the stations that enchant and repair them.
 
 ## Gear tiers
 
-Five craftable tiers extend the vanilla ladder. Each is built on a vanilla base item (so it inherits that base's behaviour) but with its own stats, durability and colour. Crafting a tier is gated behind the matching **Armorsmith** / **Toolsmith** node unless you disable that in the config.
+Five craftable tiers slot into the vanilla ladder. Each is built on a vanilla base item (so it inherits that base's behaviour) but with its own stats, durability and colour. Crafting a tier is gated behind the matching **Armorsmith** / **Toolsmith** node unless you disable that in the config.
 
 ### Armor
 

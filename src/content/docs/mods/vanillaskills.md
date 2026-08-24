@@ -3,7 +3,7 @@ title: VanillaSkills
 description: A skill tree, five tiers of craftable gear, quests, shards, a shop and crates for Minecraft — Fabric and NeoForge.
 ---
 
-VanillaSkills replaces vanilla's progression with one of its own: **experience is removed entirely** and **Skill Shards** take its place — earned from advancements, spent in a **15-lane skill tree**, at the anvil, and at the **Infusing Table** that replaces enchanting. On top of that sit **five tiers of craftable gear** that pick up where netherite leaves off, a **Bounty Board** with a rotating shop, and **crates** you fish out of the water.
+VanillaSkills replaces vanilla's progression with one of its own: **experience is removed entirely** and **Skill Shards** take its place — earned from advancements, spent in a **15-lane skill tree**, at the anvil, and at the **Infusing Table** that replaces enchanting. On top of that sit **five tiers of craftable gear** that slot in between the vanilla tiers, a **Bounty Board** with a rotating shop, and **crates** you fish out of the water.
 
 Almost all of its content — the skill tree, quests, shop, crates and feats — lives in **datapack files**, so a server can rewrite any of it without touching code. It runs on **Fabric** and **NeoForge**, and custom textures reach vanilla clients through an automatically pushed resource pack: nobody installs anything by hand.
 
