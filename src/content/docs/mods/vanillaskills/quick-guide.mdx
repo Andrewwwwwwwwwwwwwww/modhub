@@ -1,0 +1,84 @@
+---
+title: "VanillaSkills: Quick guide"
+description: The short version — what changed, how to earn and spend shards, and quick answers to the questions everyone asks.
+---
+
+import { Steps, LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+:::note[The whole mod in three sentences]
+**XP is gone.** You earn **Skill Shards** from advancements instead, and spend them on a 15-lane skill tree, at the anvil, and on enchanting. **Five craftable gear tiers** slot in between the vanilla ones, and **crates**, **quests** and a **shop** round it out.
+:::
+
+Runs on **Fabric** and **NeoForge** (Minecraft **26.2** / **26.1.2**). Install the jar on the **server** (Fabric needs Fabric API) — players install nothing and get the textures pushed to them on join. Or use the ready-made [VSP Player/Server packs](/modhub/mods/vanillaskills/#playing-via-the-vsp-modpack).
+
+## Where's my XP?
+
+Removed — nothing drops or grants it. The XP bar shows your banked **Skill Shards** instead. Servers can put vanilla XP back with one config switch (`experienceEnabled`).
+
+## How do I earn shards?
+
+Do **advancements** — that's the main source. Also: mine **shard ore**, fish up **crates**, sell to the **wandering trader**, and loot structure chests.
+
+**Quest Shards** are a second currency: earn them from **Bounty Board** quests (`/quests`), spend them on the gear-unlock lanes and the Quest Shop. 3 Quest Shards convert to 1 Skill Shard, one way only.
+
+## How do I spend shards?
+
+Open the tree with **`/skill`**. Fifteen lanes — health, speed, mining, luck, damage, armor, reach, swimming, gear unlocks and more. Every node is a live modifier, and you can respec any time. Shards can also be **withdrawn as items**, traded, and banked again with a right-click.
+
+## How do I enchant?
+
+The enchanting table is now the **Infusing Table** — no lapis, no levels. Put enchanted books in **chiseled bookshelves** around it: it offers exactly what's shelved, charges shards, and **never consumes the books**. Shelve a book once, enchant with it forever.
+
+Anvils no longer put books on gear — that's the Infusing Table's job. Anvils still combine two books.
+
+## What does the anvil cost?
+
+Shards, not levels: **1 per repair material**, **1 per enchant level** on the item you sacrifice. Renames are **free**. Vanilla's prior-work penalty no longer compounds, so nothing becomes "too expensive."
+
+## What's the gear ladder?
+
+**Hardwood → Rose Gold → Steel → Crystalline → Dragon**, woven in between the vanilla tiers — Steel sits between iron and diamond, Crystalline between diamond and netherite, Dragon above netherite. Each set has a **full-set bonus** (checked live), and crafting each tier is unlocked through the **Armorsmith** / **Toolsmith** lanes.
+
+- **Steel** is smelted, not crafted: one **iron block** → 3 Steel Ingots in any furnace.
+- Full stats for every tier: [Gear & crafting](/modhub/mods/vanillaskills/gear/).
+
+## How do I get Dragon gear?
+
+<Steps>
+
+1. Kill the **Ender Dragon yourself** — 8 **Dragon Scales** per kill, 32 for the world's first.
+
+2. Forge a **Dragon Ingot**: Netherite Ingot + 4 scales.
+
+3. Upgrade netherite gear at a **smithing table** with the ingot and a Dragon Template.
+
+4. Repair: **one scale + 2 shards** fully fixes a piece. Bonus: drop a Dragon chestplate and an Elytra on an anvil and they **fuse**.
+
+</Steps>
+
+## Why can't I mine this?
+
+- **Deepslate** needs a **Steel-tier-or-better** pickaxe (vanilla diamond/netherite count).
+- **Shard ore** (reinforced deepslate) needs **Netherite, Crystalline or Dragon** — anything weaker shatters it and you get nothing.
+
+## What are the crates?
+
+**Fished out of the water**, right-click to open (it spins a little slot reel). Wooden/Copper/Iron/Diamond as a rarity ladder, plus Frozen, Lush and Desert biome crates. The **Unboxing** rod enchantment raises your crate rate.
+
+## Portable storage?
+
+**Chest + 8 leather = Satchel** — a shulker box in all but name, no End trip required.
+
+## Running a server?
+
+- Config lives at `<world>/vanillaskills/gameplay.json` — every stat, cost and toggle. Live-reload with `/skill reload`.
+- The skill tree, quests, shop and crates are **datapacks** — reprice, replace or remove anything like vanilla tags.
+- Useful commands: `/skill skillshards <player> add <n>`, `/skill give <item>`, `/quests board`.
+
+## The full detail
+
+<CardGrid>
+	<LinkCard title="Progression & economy" href="/modhub/mods/vanillaskills/progression/" description="The two currencies, all 15 lanes, quests, shop, crates and feats." />
+	<LinkCard title="Gear & crafting" href="/modhub/mods/vanillaskills/gear/" description="Every tier's stats, the Dragon chain, infusing and the anvil." />
+	<LinkCard title="Running a server" href="/modhub/mods/vanillaskills/server-guide/" description="Config reference, commands, datapacks and translations." />
+</CardGrid>

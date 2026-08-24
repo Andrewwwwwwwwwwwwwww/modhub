@@ -23,6 +23,7 @@ export default defineConfig({
 							label: 'VanillaSkills',
 							items: [
 								{ label: 'Overview', link: '/mods/vanillaskills/' },
+								{ label: 'Quick guide', link: '/mods/vanillaskills/quick-guide/' },
 								{ label: 'Progression & economy', link: '/mods/vanillaskills/progression/' },
 								{ label: 'Gear & crafting', link: '/mods/vanillaskills/gear/' },
 								{ label: 'Running a server', link: '/mods/vanillaskills/server-guide/' },

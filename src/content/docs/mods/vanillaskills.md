@@ -19,6 +19,7 @@ Almost all of its content — the skill tree, quests, shop, crates and feats —
 
 ## The documentation
 
+- **[Quick guide](/modhub/mods/vanillaskills/quick-guide/)** — the short version: what changed, how shards work, and fast answers to the questions everyone asks. **Start here.**
 - **[Progression & economy](/modhub/mods/vanillaskills/progression/)** — the two shard currencies, the 15-lane skill tree, quests, the shop, crates, feats, and how other mods' advancements feed in.
 - **[Gear & crafting](/modhub/mods/vanillaskills/gear/)** — the five gear tiers, the Dragon end-game chain, the Infusing Table, the re-priced anvil, the Satchel, and the mining gates.
 - **[Running a server](/modhub/mods/vanillaskills/server-guide/)** — configuration, commands, datapacks, translations, and how textures reach vanilla clients.
