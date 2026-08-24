@@ -23,6 +23,9 @@ export default defineConfig({
 							label: 'VanillaSkills',
 							items: [
 								{ label: 'Overview', link: '/mods/vanillaskills/' },
+								{ label: 'Progression & economy', link: '/mods/vanillaskills/progression/' },
+								{ label: 'Gear & crafting', link: '/mods/vanillaskills/gear/' },
+								{ label: 'Running a server', link: '/mods/vanillaskills/server-guide/' },
 								{ label: 'Casino add-on', link: '/mods/vscasino/' },
 								{ label: 'VS - Textures', link: '/mods/vs-textures/' },
 							],

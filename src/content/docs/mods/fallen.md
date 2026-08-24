@@ -55,5 +55,5 @@ The owner lock is driven entirely by these last two timers: a body is yours unti
 
 ## Links
 
-- [GitHub (26.2)](https://github.com/Andrewwwwwwwwwwwwwww/fallen)
-- [GitHub (26.1.2)](https://github.com/Andrewwwwwwwwwwwwwww/fallen-mc26.1.2)
+- [GitHub — 26.2](https://github.com/Andrewwwwwwwwwwwwwww/fallen)
+- [GitHub — 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/fallen-mc26.1.2)

@@ -17,28 +17,15 @@ hero:
 
 import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-## Pick a mod
+## The VanillaSkills family
+
+A progression overhaul and the mods built around it.
 
 <CardGrid>
 	<LinkCard
 		title="VanillaSkills"
 		href="/modhub/mods/vanillaskills/"
 		description="A skill tree, tiered gear, a Skill Shard economy, quests, a shop and crates — for Fabric and NeoForge."
-	/>
-	<LinkCard
-		title="The Hungering Portal"
-		href="/modhub/mods/thp/"
-		description="Feed the End portal a ritual of offerings and a gathering of players, then face a deadlier dragon."
-	/>
-	<LinkCard
-		title="Villager Shop"
-		href="/modhub/mods/villagershop/"
-		description="Player-run villager shops with stock, payments and a trade editor."
-	/>
-	<LinkCard
-		title="Spawn Management"
-		href="/modhub/mods/spawnmanager/"
-		description="Fine-grained control over how and where mobs spawn."
 	/>
 	<LinkCard
 		title="VanillaSkills Casino"
@@ -51,25 +38,15 @@ import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 		description="The VanillaSkills gear and item textures as a standalone resource pack."
 	/>
 	<LinkCard
-		title="Holograms"
-		href="/modhub/mods/holograms/"
-		description="Server-side floating text holograms using display entities."
+		title="The Hungering Portal"
+		href="/modhub/mods/thp/"
+		description="Feed the End portal a ritual of offerings and a gathering of players, then face a deadlier dragon. Standalone, but its advancements feed VanillaSkills."
 	/>
-	<LinkCard
-		title="ServerStatusDiscord"
-		href="/modhub/mods/serverstatusdiscord/"
-		description="A single-server Minecraft <-> Discord bridge: live status, two-way chat, linking, and an OP console channel."
-	/>
-	<LinkCard
-		title="UsefulCarts"
-		href="/modhub/mods/usefulcarts/"
-		description="Decorative and functional carts — an MIT port of NiftyCarts."
-	/>
-	<LinkCard
-		title="SimpleLandClaim"
-		href="/modhub/mods/simplelandclaim/"
-		description="Claim and protect your land from griefing."
-	/>
+</CardGrid>
+
+## Gameplay & survival
+
+<CardGrid>
 	<LinkCard
 		title="Fallen"
 		href="/modhub/mods/fallen/"
@@ -79,5 +56,42 @@ import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 		title="Fallen: Backpacked"
 		href="/modhub/mods/fallen-backpacked/"
 		description="Compatibility add-on so Backpacked backpacks go into your Fallen corpse."
+	/>
+	<LinkCard
+		title="UsefulCarts"
+		href="/modhub/mods/usefulcarts/"
+		description="Decorative and functional carts — an MIT port of NiftyCarts."
+	/>
+</CardGrid>
+
+## Server tools
+
+All server-side — vanilla clients need nothing installed.
+
+<CardGrid>
+	<LinkCard
+		title="Villager Shop"
+		href="/modhub/mods/villagershop/"
+		description="Player-run villager shops with stock, payments and a trade editor."
+	/>
+	<LinkCard
+		title="SimpleLandClaim"
+		href="/modhub/mods/simplelandclaim/"
+		description="Claim and protect your land from griefing."
+	/>
+	<LinkCard
+		title="Spawn Management"
+		href="/modhub/mods/spawnmanager/"
+		description="Exact world spawn, spawn protection, and random-wilderness travel."
+	/>
+	<LinkCard
+		title="Holograms"
+		href="/modhub/mods/holograms/"
+		description="Server-side floating text holograms using display entities."
+	/>
+	<LinkCard
+		title="ServerStatusDiscord"
+		href="/modhub/mods/serverstatusdiscord/"
+		description="A single-server Minecraft <-> Discord bridge: live status, two-way chat, linking, and an OP console channel."
 	/>
 </CardGrid>
