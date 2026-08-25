@@ -31,7 +31,7 @@ The mod adds its **own advancement tab**, so the checklist is in the game rather
 
 Each of the ten offerings is its own advancement, carrying the ritual's flavour text plus a hint about where to actually find the thing. The four that gate on a boss or a rare structure — the Netherite Block, Beacon, Mace and sixteen Wither Roses — are **challenge** advancements; the rest are goals.
 
-If you also run **[VanillaSkills](/modhub/mods/vanillaskills/)**, these pay out: it counts this mod's advancements when awarding **Skill Shards**, so working through the ritual feeds your skill tree. Worth 110 Skill Shards at default rates. Neither mod requires the other.
+If you also run **[VanillaSkills](/modhub/mods/vanillaskills/)**, these pay out: it counts this mod's advancements when awarding **Skill Shards**, so working through the ritual feeds your skill tree. Worth 320 Skill Shards at default rates. Neither mod requires the other.
 
 ## A harder End
 
