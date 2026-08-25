@@ -36,6 +36,7 @@ export default defineConfig({
 							items: [
 								{ label: 'Overview', link: '/mods/fallen/' },
 								{ label: 'Backpacked add-on', link: '/mods/fallen-backpacked/' },
+								{ label: 'Server Sided Corpse', link: '/mods/ssc/' },
 							],
 						},
 						{ label: 'The Hungering Portal', link: '/mods/thp/' },
