@@ -13,7 +13,7 @@ Everything that used to cost levels now costs Skill Shards — [anvil work](/mod
 
 ## The two currencies
 
-- **Skill Shards** — mainly from **advancements**, and also from shard ore, structure chests, piglin bartering, broken spawners, the wandering trader and crates. They pay for most of the skill tree, anvil costs and infusing. Advancements only count if their namespace is listed in `countedNamespaces` (`minecraft`, `vanillaskills` and `thp` by default), which keeps a 300-advancement datapack from printing money.
+- **Skill Shards** — mainly from **advancements**, and also from shard ore, structure chests, piglin bartering, broken spawners, the wandering trader, crates — and, rarely, **plain hard work**: mining, placing blocks and harvesting crops each have a small chance (0.2% by default, at most one payout every few minutes) to shake a shard loose, so ordinary play keeps a slow trickle coming. They pay for most of the skill tree, anvil costs and infusing. Advancements only count if their namespace is listed in `countedNamespaces` (`minecraft`, `vanillaskills` and `thp` by default), which keeps a 300-advancement datapack from printing money.
 - **Quest Shards** — earned from **Bounty Board** quests. They pay for the gear-unlock lanes (Armorsmith and Toolsmith) and the Quest Shop. Convert 3 Quest Shards into 1 Skill Shard at the shop, one way only.
 
 ## Skill Shards are a real item

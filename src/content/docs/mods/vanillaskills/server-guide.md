@@ -26,6 +26,7 @@ Per-world file at `<world>/vanillaskills/gameplay.json`. Reload it live with `/s
 | `anvilRepairCostPerMaterial` / `anvilEnchantCostPerLevel` / `anvilRenameCost` | The material-based anvil rates: per repair material, per enchantment level on the sacrificed item, and the flat rename fee (default free). |
 | `anvilBooksOnItems` | Restore putting enchanted books straight onto gear at an anvil. Off by default. |
 | `shardAuraRadius` / `shardAuraDamage` / `shardMaxMerge` | Stable Skill Shard Block behaviour. |
+| `taskShardChance` / `taskShardCooldownSeconds` | The rare shard drop from mining, building and harvesting: the per-action chance (0 disables) and the per-player cooldown after a payout. |
 | `crateFishingWeight` / `crateReel*` | How often crates are fished up, and the opening animation. |
 | `questsPerRotation` (1–6) / `questShopSlots` | Board and shop size. |
 | `bountyRefreshHours` / `shopRefreshHours` | Rotation timers. |
