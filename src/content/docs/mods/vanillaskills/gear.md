@@ -79,6 +79,8 @@ The material-based price:
 
 Anvils **do not put enchanted books onto gear** — that is the [Infusing Table](#the-infusing-table)'s job. Combining two books together still works, priced the same way.
 
+**Every repairable item has a repair material.** Vanilla ships nine damageable items with none at all — a trident can only be mended with a second trident. VanillaSkills gives them one: **Trident ← Prismarine**, **Bow / Crossbow / Fishing Rod ← String**, **Flint and Steel / Shears ← Iron Ingot**, **Brush ← Copper Ingot** (the two "on a stick" rods stay combine-only). Toggle: `vanillaRepairMaterials`.
+
 All of it is configurable: `anvilMaterialPricing` switches the scheme (clear it to restore vanilla's numbers), and `anvilRepairCostPerMaterial`, `anvilEnchantCostPerLevel` and `anvilRenameCost` set the rates.
 
 ## The Satchel
