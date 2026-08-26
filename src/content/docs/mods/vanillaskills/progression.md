@@ -69,7 +69,7 @@ Fished out of the water, right-clicked to open. Opening one spins a slot-machine
 | **Lush** | jungle, swamp and lush caves |
 | **Desert** | desert, badlands and savanna |
 
-Every crate can contain Unstable Skill Shards, and each biome variant has its own themed loot. **Unboxing** is a fishing-rod enchantment that raises your crate rate — found in crates and sold in the shop.
+Every crate can contain Unstable Skill Shards, and each biome variant has its own themed loot. **Unboxing** is a fishing-rod enchantment that raises your crate rate — sold in the shop, and found in every crate at a small chance **tiered to the crate**: Wooden holds Unboxing I, Copper II, and the rest III, so even the humblest crate offers a rung up the ladder. A crate never contains more than one Unboxing book.
 
 Crates are datapack-defined, so a server can add its own, change any loot table, or turn them off.
 
