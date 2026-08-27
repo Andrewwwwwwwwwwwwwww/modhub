@@ -11,7 +11,7 @@ On join, the server pushes a **resource pack** so the custom gear and item names
 
 ## Configuration
 
-Per-world file at `<world>/vanillaskills/gameplay.json`. Reload it live with `/skill reload`.
+Per-world file at `<world>/vanillaskills/gameplay.json`. Reload it live with `/skill reload`. Both config files carry a built-in `#option-guide` block describing every option in place, kept current by the mod — the table below covers the highlights.
 
 | Setting | What it does |
 | --- | --- |
