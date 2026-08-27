@@ -73,7 +73,7 @@ Anvils charge **Skill Shards** instead of levels — and as of **2.0.2** the pri
 The material-based price:
 
 - **Repairing with materials** costs **1 shard per material consumed**.
-- **Combining two items** costs **1 shard per enchantment level on the sacrificed item**.
+- **Combining two items** costs **1 shard per enchantment level on the sacrificed item**, plus a flat **2 shards** when the combine restores durability (the spare is consumed for it).
 - **A plain rename** is a flat fee — **free by default**.
 - Vanilla's prior-work penalty no longer compounds the price.
 
@@ -81,7 +81,7 @@ Anvils **do not put enchanted books onto gear** — that is the [Infusing Table]
 
 **Every repairable item has a repair material.** Vanilla ships nine damageable items with none at all — a trident can only be mended with a second trident. VanillaSkills gives them one: **Trident ← Prismarine**, **Bow / Crossbow / Fishing Rod ← String**, **Flint and Steel / Shears ← Iron Ingot**, **Brush ← Copper Ingot** (the two "on a stick" rods stay combine-only). Toggle: `vanillaRepairMaterials`.
 
-All of it is configurable: `anvilMaterialPricing` switches the scheme (clear it to restore vanilla's numbers), and `anvilRepairCostPerMaterial`, `anvilEnchantCostPerLevel` and `anvilRenameCost` set the rates.
+All of it is configurable: `anvilMaterialPricing` switches the scheme (clear it to restore vanilla's numbers), and `anvilRepairCostPerMaterial`, `anvilEnchantCostPerLevel`, `anvilCombineRepairCost` and `anvilRenameCost` set the rates.
 
 ## The Satchel
 
