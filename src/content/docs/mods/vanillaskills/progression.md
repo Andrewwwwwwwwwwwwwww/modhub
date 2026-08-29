@@ -49,6 +49,10 @@ The Warrior lane deliberately combines a flat bonus with a percentage so slow, h
 
 The whole tree is a datapack, so a server can reprice it, rearrange it, or replace it outright. An existing hand-edited tree is migrated into a datapack automatically on first load.
 
+## The recipe list
+
+The skill screen's **Recipes** button opens a contents page of every custom recipe, each shown as the item it makes. Click one to see its crafting grid and what it's for, then step back to the list — or straight to the skill tree — from the buttons along the bottom.
+
 ## Quests, shop and feats
 
 - **Bounty Board** — new players work a fixed 15-quest starter board, then graduate to a shared board of 6 quests that rerolls every 5 hours. Rewards are **Quest Shards**.
