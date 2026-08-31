@@ -45,6 +45,34 @@ Three vanilla-protocol tricks, all driven from the server:
 | `opsBypassProtection` | true | Operators can loot any body, ignoring the owner lock. |
 | `deathHistorySize` | 20 | How many past deaths to keep per player. |
 
+## Claim mods (Open Parties and Claims)
+
+The corpse hitbox is an ordinary `minecraft:interaction` entity, so claim mods see looting a body as "interacting with an entity" and block it inside claims. SSC ships an entity tag for exactly this. Add it to OPAC's forced exceptions in `<world>/serverconfig/openpartiesandclaims-server.toml` — the server has to be stopped to edit that file:
+
+```toml
+forcedEntityProtectionExceptionList = ["minecraft:minecart", "anything$#ssc:corpses"]
+```
+
+The `anything$` prefix matters. Without it the exception only applies when the item in your hand isn't itself blocked, so a player holding a sword still couldn't loot their own body. Claims never make a body public: SSC does its own owner check regardless, so a body stays locked to its owner either way.
+
+One caveat — `#ssc:corpses` resolves to `minecraft:interaction`, the vanilla type SSC uses for hitboxes, so whitelisting it exempts every interaction entity on the server rather than only corpses. That only matters if something else on your server uses interaction entities and wants them protected.
+
+SSC prints this config line to the console at startup whenever it detects OPAC.
+
+## Diagnosing a missing body
+
+Bodies are drawn with packets instead of being real entities, so `/data` and the F3 entity list can't see them. These operator commands can:
+
+| Command | What it does |
+| --- | --- |
+| `/ssc list` | Every body on the server — owner, position, dimension, items, XP, age, and **how many players can currently see it**. |
+| `/ssc resend [player]` | Forget what that player's client has been sent, so every body in range is re-sent within two seconds. |
+| `/ssc debug <true\|false>` | Log every decision the death handler makes, including each reason it declines to create a body. |
+
+**No body appeared for anyone.** Turn on `/ssc debug true` and watch the console on the next death — every path that skips a body says why (keepInventory, empty inventory, a hazard setting, or the world refusing the hitbox entity). A body that can't be placed logs a warning naming the player and position; the usual cause is another mod blocking entity spawning there, and the player's items drop normally rather than being lost.
+
+**A body everyone can see except one player.** That client lost the packets. `/ssc resend <player>` puts it back immediately, and since v1.1.0 an automatic resync catches this within two seconds — clients silently drop packet-only bodies whenever they rebuild their world, which is what respawning, changing dimension and reconnecting all do.
+
 ## SSC or Fallen?
 
 - **[Fallen](/modhub/mods/fallen/)** is the full experience — custom corpse screen, death-history UI with operator respawn/move tools, Trinkets and backpack support — and requires the mod on **both client and server**.
