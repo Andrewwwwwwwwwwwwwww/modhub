@@ -49,6 +49,34 @@ A built-in moderation and recovery tool. Every death is recorded permanently. A 
 
 The owner lock is driven entirely by these last two timers: a body is yours until it skeletonizes, then it's public. Set `skeletonStageIsPublic` to false (or `skeletonMinutes` to 0) to keep bodies owner-only for good.
 
+## Claim mods (Open Parties and Claims)
+
+A corpse is an entity, so claim mods treat looting one as "interacting with an entity" and refuse it inside claims. Fallen ships an entity tag for exactly this. Add it to OPAC's forced exceptions in `<world>/serverconfig/openpartiesandclaims-server.toml` — the server has to be stopped to edit that file:
+
+```toml
+forcedEntityProtectionExceptionList = ["minecraft:minecart", "anything$#fallen:corpses"]
+```
+
+The `anything$` prefix matters. Without it the exception only applies when the item in your hand isn't itself blocked, so a player holding a sword still couldn't loot their own body. Because the tag names `fallen:corpse` specifically, nothing else on your server loses protection.
+
+Claims never make a body public: Fallen's own owner-lock applies regardless, so a body stays locked to its owner until it skeletonises either way. Fallen prints this config line to the console at startup whenever it detects OPAC.
+
+## Diagnosing a missing body
+
+If a body doesn't appear, `/fallen debug true` logs every decision the death handler makes, including each reason it declines to create one — `keepInventory` being on, dying in spectator, an empty inventory, a `spawnInLava`/`spawnOverVoid` setting, or the world refusing the corpse entity. A missing body otherwise looks exactly like an ordinary death, so there is nothing to go on without it.
+
+A body that can't be placed logs a warning naming the player, position and dimension. The usual cause is another mod vetoing entity spawning at that spot; the player's items drop the vanilla way instead.
+
+Corpses are ordinary entities, so vanilla selectors find the ones that do exist:
+
+```
+/execute as @e[type=fallen:corpse] run tp @s ~ ~ ~
+```
+
+:::caution[Update to 1.3.0 if you are on an older version]
+Before 1.3.0, a body that failed to spawn cleared the player's inventory anyway and cancelled the vanilla drop, deleting their items outright. 1.3.0 places the body first and falls back to a normal death if the world refuses it.
+:::
+
 ## Add-ons
 
 - **[Fallen: Backpacked](/modhub/mods/fallen-backpacked/)** — makes MrCrayfish's Backpacked backpacks go into your corpse instead of dropping. It's backed by a compatibility API, so other backpack/curio-style mods can add support too.
