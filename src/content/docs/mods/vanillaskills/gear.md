@@ -63,6 +63,7 @@ The enchanting table becomes the **Infusing Table** — same block, no lapis, no
 
 - It reads enchanted books out of **chiseled bookshelves** placed around it, in the same layout a vanilla table wants its bookshelves.
 - It offers exactly the enchantments those books hold, and you can pick **several at once**.
+- **What your held item can take is listed first**, shown as Enchanted Books; anything it cannot take follows as plain Books. Long lists page rather than cutting off.
 - It charges **Skill Shards** — exactly the enchantment level: 1 shard for a level-I book, 5 for a level-V.
 - **Books are not consumed.** Shelve a book once and that enchantment is available forever — which is why the Quest Shop sells low-level books, and why anvils no longer apply books directly to gear.
 
