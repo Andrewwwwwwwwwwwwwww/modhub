@@ -31,7 +31,7 @@ Run `/connectle`. Click a tile to select it (up to four), click again or right-c
 | **One away!** | Three of the four were right. It still costs a life |
 | **Miss** | Costs a life. Four misses and the remaining groups are revealed |
 
-Find three groups and the fourth completes itself. **Shuffle** rearranges the unsolved tiles, **Clear** empties your selection, and repeating a guess is refused for free. Every guess you submit stays on screen beside the board, coloured by tier once its group is known, so by the end the flanks are your results grid with the items drawn in.
+Every group has to be submitted, the last one included. **Shuffle** rearranges the unsolved tiles, **Clear** empties your selection, and repeating a guess is refused for free. Every guess you submit stays on screen beside the board, coloured by tier once its group is known, so by the end the flanks are your results grid with the items drawn in.
 
 ## Commands
 
