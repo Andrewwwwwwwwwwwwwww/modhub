@@ -39,6 +39,14 @@ export default defineConfig({
 								{ label: 'Server Sided Corpse', link: '/mods/ssc/' },
 							],
 						},
+						{
+							label: 'Daily puzzles',
+							items: [
+								{ label: 'Craftle', link: '/mods/craftle/' },
+								{ label: 'Connectle', link: '/mods/connectle/' },
+								{ label: 'CrossCraft', link: '/mods/crosscraft/' },
+							],
+						},
 						{ label: 'The Hungering Portal', link: '/mods/thp/' },
 						{ label: 'Villager Shop', link: '/mods/villagershop/' },
 						{ label: 'Spawn Management', link: '/mods/spawnmanager/' },
