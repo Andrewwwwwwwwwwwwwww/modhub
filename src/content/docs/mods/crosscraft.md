@@ -9,6 +9,10 @@ description: A daily mini crossword where every answer is something from Minecra
 - Some clues are just an **item icon**. Name what's pictured.
 - Grids are **5x5, 6x6 or 7x7**, and the size changes from day to day.
 
+## Part of NYTGames
+
+CrossCraft now ships inside **[NYTGames](/modhub/mods/nytgames/)**, one mod with all three daily puzzles and a hub to pick from. The rules, boards and daily sequence on this page are unchanged in the bundle; the standalone mod is no longer updated. Remove the standalone jar before installing the bundle.
+
 ## Requirements
 
 - Minecraft **26.2**, **Fabric** with Fabric API

@@ -12,6 +12,10 @@ description: Connections with Minecraft items — sixteen items, four hidden gro
 
 Most boards carry a red herring or two, an item that fits two groups until the titles are known, so the trick is to find the set that only works one way.
 
+## Part of NYTGames
+
+Connectle now ships inside **[NYTGames](/modhub/mods/nytgames/)**, one mod with all three daily puzzles and a hub to pick from. The rules, boards and daily sequence on this page are unchanged in the bundle; the standalone mod is no longer updated. Remove the standalone jar before installing the bundle.
+
 ## Requirements
 
 - Minecraft **26.2**, **Fabric** with Fabric API

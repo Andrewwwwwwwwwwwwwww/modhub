@@ -5,6 +5,10 @@ description: Wordle for crafting recipes — ten guesses to crack one secret rec
 
 **Craftle** is the daily crafting-recipe guessing game, played on a real 3x3 grid inside the game. Every day there is one secret shaped recipe, and it's the **same recipe for everyone**. Place ingredients from an 18-item palette, press **Craft**, and every cell you filled comes back colour-coded, Wordle-style. Ten guesses to work it out.
 
+## Part of NYTGames
+
+Craftle now ships inside **[NYTGames](/modhub/mods/nytgames/)**, one mod with all three daily puzzles and a hub to pick from. The rules, boards and daily sequence on this page are unchanged in the bundle; the standalone mod is no longer updated. Remove the standalone jar before installing the bundle.
+
 ## Requirements
 
 - Minecraft **26.2**, **Fabric** with Fabric API

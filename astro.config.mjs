@@ -40,8 +40,9 @@ export default defineConfig({
 							],
 						},
 						{
-							label: 'Daily puzzles',
+							label: 'NYTGames',
 							items: [
+								{ label: 'Overview', link: '/mods/nytgames/' },
 								{ label: 'Craftle', link: '/mods/craftle/' },
 								{ label: 'Connectle', link: '/mods/connectle/' },
 								{ label: 'CrossCraft', link: '/mods/crosscraft/' },
