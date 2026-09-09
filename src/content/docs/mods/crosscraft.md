@@ -5,7 +5,7 @@ description: A daily mini crossword where every answer is something from Minecra
 
 **CrossCraft** puts a small crossword on a native in-game screen, where **every answer is something from the game**: mobs, blocks, biomes, enchantments, potions, updates, a bit of old lore. Every day there is one grid, and it's the **same grid for everyone**. Click a cell, type, and the puzzle grades itself the moment the last cell is filled.
 
-- Clues are trivia and wordplay: *Skeleton's weapon*, *Curse of ___*, *Mob that ruins builds*, *___ & Tales, the 1.20 update*.
+- Clues are trivia and wordplay: *Skeleton's weapon*, *Hotbar space*, *Mob that ruins builds*, *___ & Tales, the 1.20 update*.
 - Some clues are just an **item icon**. Name what's pictured.
 - Grids are **5x5, 6x6 or 7x7**, and the size changes from day to day.
 
