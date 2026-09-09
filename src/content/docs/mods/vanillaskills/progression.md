@@ -37,7 +37,7 @@ Fifteen lanes. Every node's effect is a live, stacking modifier — respec any t
 | **Guardian** | 10 | +1 armor | +10 armor |
 | **Reach** | 5 | +0.5 block & entity reach | +2.5 blocks reach |
 | **Mountaineer** | 3 | step height (+0.2/+0.2/+0.1) | step up 1.1-block ledges (sneak to walk normally) |
-| **Aquatic** | 9 | +breath ×3, then Dolphin's Grace (I→III, stacks with Depth Strider), then underwater mining | full swim speed + full underwater mining |
+| **Aquatic** | 6 | +breath ×3, then Dolphin's Grace (I→III, stacks with Depth Strider) | full swim speed |
 | **Armorsmith** | 10 | unlocks crafting each armor tier | Hardwood → Dragon armor |
 | **Toolsmith** | 10 | unlocks crafting each tool tier | Hardwood → Dragon tools |
 | **Brewmaster** | 5 | +10% beneficial-potion duration | +50% duration |
