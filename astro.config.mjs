@@ -49,6 +49,7 @@ export default defineConfig({
 							],
 						},
 						{ label: 'The Hungering Portal', link: '/mods/thp/' },
+						{ label: 'SharedLives', link: '/mods/sharedlives/' },
 						{ label: 'Villager Shop', link: '/mods/villagershop/' },
 						{ label: 'Spawn Management', link: '/mods/spawnmanager/' },
 						{ label: 'Holograms', link: '/mods/holograms/' },
