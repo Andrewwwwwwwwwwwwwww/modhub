@@ -20,7 +20,7 @@ CrossCraft now ships inside **[MCTGames](/modhub/mods/mctgames/)**, one mod with
 
 ## Download
 
-CrossCraft is in testing and hasn't been published yet. This page will link to the download when it is.
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/crosscraft)
 
 ## How to play
 

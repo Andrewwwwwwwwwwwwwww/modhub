@@ -14,6 +14,10 @@ play with nothing installed, and the card and chip artwork is pushed to them aut
 - Minecraft **26.2** or **26.1.2**, **Fabric** with Fabric API
 - **VanillaSkills 1.7.5 or newer** (same Minecraft version), including **2.x**. Take **VSCasino 1.0.2 or newer** with it: earlier builds could leave gold blocks untextured on vanilla clients — 1.0.1 fixed the pack itself, and 1.0.2 also repairs servers whose `casino.json` was written under 1.0.0 and kept pushing the old pack.
 
+## Download
+
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/vs-casino)
+
 ## Getting in
 
 Open the skill tree and click the **Casino** button above your stats head, or run `/casino`.

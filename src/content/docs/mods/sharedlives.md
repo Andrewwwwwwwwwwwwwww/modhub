@@ -15,6 +15,10 @@ It appears in the mods list as **Lives Shared**.
 - **Fabric** with Fabric API, or **NeoForge**
 - Install on **the server only** — players need nothing. It also works in singleplayer, where one player is indistinguishable from vanilla.
 
+## Download
+
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sharedlives)
+
 ## Adding it to a world that already exists
 
 Installing on a world people have already played merges everyone into one life, and the merge takes its starting point from whoever logs in first.
@@ -100,7 +104,3 @@ Once a tick, for every group: whatever a member changed since the pool was last 
 - **Beacons can make shared effects flicker.** A beacon refreshes its effect only for players in range; when the copy held by a player outside the range runs out, the group follows them until the beacon's next pulse.
 - **Health is pooled as a number.** A player with a smaller maximum health bar is capped at their own maximum rather than showing the group's full pool.
 - **Regeneration scales with the group.** Health sums both ways, so several players regenerating heal the pool several times over. Hunger is the only stat that divides.
-
-## Download
-
-Awaiting approval on CurseForge. This page will carry the link once the project is live.

@@ -16,6 +16,7 @@ Almost all of its content — the skill tree, quests, shop, crates and feats —
 ## Download
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/vanilla-skills)
+- [Modrinth](https://modrinth.com/mod/vanilla-skills)
 
 ## The documentation
 

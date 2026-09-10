@@ -13,6 +13,10 @@ Only useful if you run both mods.
 - **Fabric** with Fabric API, Minecraft **26.1.2**
 - Install on both the client and the server.
 
+## Download
+
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fallen-backpacked)
+
 ## How it works
 
 - On death, your equipped backpacks are moved into the corpse instead of dropping. Because Backpacked stores a backpack's contents inside the item itself, the whole thing — bag and everything in it — travels together.

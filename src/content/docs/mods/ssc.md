@@ -11,6 +11,10 @@ description: Lootable corpses on death for fully vanilla clients — the whole m
 - A **Fabric** server with Fabric API
 - Install on **the server only** — players need nothing. (It also works in singleplayer, where it runs on the integrated server.)
 
+## Download
+
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/server-side-corpses)
+
 ## Features
 
 - **Your body, your skin** — the corpse appears as you, lying flat where you died, rendered from your real skin. No nametag floats over it.

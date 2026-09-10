@@ -18,7 +18,7 @@ description: Craftle, Connectle and CrossCraft in one mod, with a hub and a hotk
 
 ## Download
 
-MCTGames is in testing and hasn't been published yet. This page will link to the download when it is.
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mctgames)
 
 ## Upgrading from the standalone mods
 

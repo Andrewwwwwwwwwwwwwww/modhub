@@ -11,6 +11,11 @@ When you die, your stuff normally scatters across the ground and ticks down to n
 - **Fabric** with Fabric API
 - Install on **both the client and the server** — this is not a server-only mod.
 
+## Download
+
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fallen-corpse)
+- [Modrinth](https://modrinth.com/mod/fallencorpse)
+
 ## Features
 
 - **Your body, your skin** — the corpse renders as you, matching your wide or slim model, lying where you died. The owner's name is on the loot screen, not floating over the world.
