@@ -1,9 +1,9 @@
 ---
-title: NYTGames
+title: MCTGames
 description: Craftle, Connectle and CrossCraft in one mod, with a hub and a hotkey to pick today's puzzle.
 ---
 
-**NYTGames** bundles the three daily puzzles into one Fabric mod for Minecraft 26.2. Every day, everyone gets the same three puzzles, resetting together at **midnight US Eastern**. Press **H** (rebindable under Controls) or run `/dailies` for the hub: one row per game with today's status, your streak, a Play/Resume/View button and a Practice button, plus a countdown to the next puzzles.
+**MCTGames** bundles the three daily puzzles into one Fabric mod for Minecraft 26.2. Every day, everyone gets the same three puzzles, resetting together at **midnight US Eastern**. Press **H** (rebindable under Controls) or run `/dailies` for the hub: one row per game with today's status, your streak, a Play/Resume/View button and a Practice button, plus a countdown to the next puzzles.
 
 - **[Craftle](/modhub/mods/craftle/)** is Wordle for crafting recipes.
 - **[Connectle](/modhub/mods/connectle/)** is Connections with Minecraft items.
@@ -17,7 +17,7 @@ description: Craftle, Connectle and CrossCraft in one mod, with a hub and a hotk
 
 ## Download
 
-NYTGames is in testing and hasn't been published yet. This page will link to the download when it is.
+MCTGames is in testing and hasn't been published yet. This page will link to the download when it is.
 
 ## Upgrading from the standalone mods
 
@@ -25,7 +25,7 @@ Your games, stats and streaks are imported from the old save files on the first 
 
 1. Take a world backup.
 2. Stop the server.
-3. Remove `craftle-*.jar`, `connectle-*.jar` and `crosscraft-*.jar` from `mods` on the server and on every client, and add the NYTGames jar.
+3. Remove `craftle-*.jar`, `connectle-*.jar` and `crosscraft-*.jar` from `mods` on the server and on every client, and add the MCTGames jar.
 4. Start the server. The import runs once and logs what it copied.
 
 Going back to the standalones restores the pre-upgrade state and drops anything played on the bundle.
@@ -45,7 +45,7 @@ The countdown at the bottom says when the next puzzles arrive, and a note appear
 
 | Command | What it does |
 | --- | --- |
-| `/dailies` (or `/nytgames`) | Opens the hub |
+| `/dailies` (or `/mctgames`) | Opens the hub |
 | `/dailies craftle`, `/dailies connectle`, `/dailies crosscraft` | Opens that game's daily |
 | `/craftle`, `/connectle`, `/crosscraft` | Each game's own command, as before, with `random` and `random new` for practice |
 

@@ -40,9 +40,9 @@ export default defineConfig({
 							],
 						},
 						{
-							label: 'NYTGames',
+							label: 'MCTGames',
 							items: [
-								{ label: 'Overview', link: '/mods/nytgames/' },
+								{ label: 'Overview', link: '/mods/mctgames/' },
 								{ label: 'Craftle', link: '/mods/craftle/' },
 								{ label: 'Connectle', link: '/mods/connectle/' },
 								{ label: 'CrossCraft', link: '/mods/crosscraft/' },
