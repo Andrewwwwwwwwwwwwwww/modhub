@@ -3,7 +3,7 @@ title: MCTGames
 description: Craftle, Connectle and CrossCraft in one mod, with a hub and a hotkey to pick today's puzzle.
 ---
 
-**MCTGames** bundles the three daily puzzles into one Fabric mod for Minecraft 26.2. Every day, everyone gets the same three puzzles, resetting together at **midnight US Eastern**. Press **H** (rebindable under Controls) or run `/mctgames` for the hub: one row per game with today's status, your streak, a Play/Resume/View button and a Practice button, plus a countdown to the next puzzles.
+**MCTGames** bundles the three daily puzzles into one mod, for Fabric and NeoForge on Minecraft 26.2 and 26.1.2. Every day, everyone gets the same three puzzles, resetting together at **midnight US Eastern**. Press **H** (rebindable under Controls) or run `/mctgames` for the hub: one row per game with today's status, your streak, a Play/Resume/View button and a Practice button, plus a countdown to the next puzzles.
 
 - **[Craftle](/modhub/mods/craftle/)** is Wordle for crafting recipes.
 - **[Connectle](/modhub/mods/connectle/)** is Connections with Minecraft items.
@@ -11,7 +11,8 @@ description: Craftle, Connectle and CrossCraft in one mod, with a hub and a hotk
 
 ## Requirements
 
-- Minecraft **26.2**, **Fabric** with Fabric API
+- Minecraft **26.2** or **26.1.2**
+- **Fabric** (with Fabric API) or **NeoForge**
 - Install on **both client and server**. In singleplayer it just works.
 - **Remove the standalone Craftle, Connectle and CrossCraft jars first.** The bundle replaces all three and refuses to load beside them.
 
@@ -39,7 +40,7 @@ Going back to the standalones restores the pre-upgrade state and drops anything 
 | **Play / Resume / View** | Opens today's puzzle |
 | **Practice** | Deals an endless practice puzzle that never spoils the daily |
 
-The countdown at the bottom says when the next puzzles arrive, and a note appears if the server runs a different version than you. The **H** key also works inside Craftle, Connectle and the hub; inside CrossCraft, where letters go into the grid, use the **H** button on the board. The `?` page carries the high contrast toggle shared by all three games.
+The countdown at the bottom says when the next puzzles arrive, and a note appears if the server runs a different version than you. The **H** key also works inside Craftle, Connectle and the hub; inside CrossCraft, where letters go into the grid, use the **<** button at the top-left of the board. The `?` page carries the high contrast toggle shared by all three games.
 
 ## Commands
 
