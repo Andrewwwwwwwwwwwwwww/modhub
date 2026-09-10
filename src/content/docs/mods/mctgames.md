@@ -3,7 +3,7 @@ title: MCTGames
 description: Craftle, Connectle and CrossCraft in one mod, with a hub and a hotkey to pick today's puzzle.
 ---
 
-**MCTGames** bundles the three daily puzzles into one Fabric mod for Minecraft 26.2. Every day, everyone gets the same three puzzles, resetting together at **midnight US Eastern**. Press **H** (rebindable under Controls) or run `/dailies` for the hub: one row per game with today's status, your streak, a Play/Resume/View button and a Practice button, plus a countdown to the next puzzles.
+**MCTGames** bundles the three daily puzzles into one Fabric mod for Minecraft 26.2. Every day, everyone gets the same three puzzles, resetting together at **midnight US Eastern**. Press **H** (rebindable under Controls) or run `/mctgames` for the hub: one row per game with today's status, your streak, a Play/Resume/View button and a Practice button, plus a countdown to the next puzzles.
 
 - **[Craftle](/modhub/mods/craftle/)** is Wordle for crafting recipes.
 - **[Connectle](/modhub/mods/connectle/)** is Connections with Minecraft items.
@@ -45,8 +45,8 @@ The countdown at the bottom says when the next puzzles arrive, and a note appear
 
 | Command | What it does |
 | --- | --- |
-| `/dailies` (or `/mctgames`) | Opens the hub |
-| `/dailies craftle`, `/dailies connectle`, `/dailies crosscraft` | Opens that game's daily |
+| `/mctgames` (or `/dailies`) | Opens the hub |
+| `/mctgames craftle`, `/mctgames connectle`, `/mctgames crosscraft` | Opens that game's daily |
 | `/craftle`, `/connectle`, `/crosscraft` | Each game's own command, as before, with `random` and `random new` for practice |
 
 ## Credits
