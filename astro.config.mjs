@@ -57,6 +57,7 @@ export default defineConfig({
 						{ label: 'ServerStatusDiscord', link: '/mods/serverstatusdiscord/' },
 						{ label: 'UsefulCarts', link: '/mods/usefulcarts/' },
 						{ label: 'BedrockToolBehavior', link: '/mods/bedrocktoolbehavior/' },
+						{ label: 'ItemSaver', link: '/mods/itemsaver/' },
 						{ label: 'SimpleLandClaim', link: '/mods/simplelandclaim/' },
 					],
 				},
