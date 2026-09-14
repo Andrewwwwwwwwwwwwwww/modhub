@@ -13,6 +13,11 @@ Client-side only. It works in singleplayer and on **any server, vanilla included
 - **Fabric** with Fabric API, or **NeoForge**
 - Client only — servers need nothing.
 
+## Download
+
+- [GitHub — Fabric](https://github.com/Andrewwwwwwwwwwwwwww/bedrocktoolbehavior/releases/latest)
+- [GitHub — NeoForge](https://github.com/Andrewwwwwwwwwwwwwww/bedrocktoolbehavior-neoforge/releases/latest)
+
 ## Why Java feels different
 
 The rate is hard-coded. `Minecraft.startUseItem` sets a four-tick cooldown as its very first statement, before it has checked whether your hands are busy, before it has looked at what is under the crosshair, and whether or not the use does anything at all. The game only tries again once that counter reaches zero, so holding right-click gives exactly five uses per second however fast you sweep. Move quicker than that and the blocks in between are never touched.
