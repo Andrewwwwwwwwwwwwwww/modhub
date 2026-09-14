@@ -56,6 +56,7 @@ export default defineConfig({
 						{ label: 'Holograms', link: '/mods/holograms/' },
 						{ label: 'ServerStatusDiscord', link: '/mods/serverstatusdiscord/' },
 						{ label: 'UsefulCarts', link: '/mods/usefulcarts/' },
+						{ label: 'BedrockToolBehavior', link: '/mods/bedrocktoolbehavior/' },
 						{ label: 'SimpleLandClaim', link: '/mods/simplelandclaim/' },
 					],
 				},
