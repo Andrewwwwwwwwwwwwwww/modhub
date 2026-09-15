@@ -9,7 +9,7 @@ Almost all of its content — the skill tree, quests, shop, crates and feats —
 
 ## Requirements
 
-- Minecraft **26.2** or **26.1.2**
+- Minecraft **26.3**, **26.2** or **26.1.2**
 - **Fabric** (with Fabric API) or **NeoForge**
 - Install on the **server**. Vanilla clients are fully supported (they receive the texture pack on join); a client install is optional.
 
@@ -60,7 +60,8 @@ You don't need both — players only need the Player Pack, and a host only needs
 ## Links
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/vanilla-skills)
-- [GitHub — Fabric, 26.2](https://github.com/Andrewwwwwwwwwwwwwww/vanillaskills)
+- [GitHub — Fabric, 26.3](https://github.com/Andrewwwwwwwwwwwwwww/vanillaskills)
+- [GitHub — Fabric, 26.2](https://github.com/Andrewwwwwwwwwwwwwww/vanillaskills-mc26.2)
 - [GitHub — NeoForge, 26.2](https://github.com/Andrewwwwwwwwwwwwwww/vanillaskills-neoforge)
 - [GitHub — Fabric, 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/vanillaskills-mc26.1.2)
 - [GitHub — NeoForge, 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/vanillaskills-neoforge-mc26.1.2)
