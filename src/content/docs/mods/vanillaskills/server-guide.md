@@ -25,6 +25,7 @@ Per-world file at `<world>/vanillaskills/gameplay.json`. Reload it live with `/s
 | `anvilMaterialPricing` | Price anvil work by materials consumed (on by default). Clear it to restore vanilla's cost numbers. |
 | `anvilRepairCostPerMaterial` / `anvilEnchantCostPerLevel` / `anvilRenameCost` | The material-based anvil rates: per repair material, per enchantment level on the sacrificed item, and the flat rename fee (default free). |
 | `anvilBooksOnItems` | Restore putting enchanted books straight onto gear at an anvil. Off by default. |
+| `aquaticSwimSpeed` | How much faster each Aquatic swim node makes you **while in water**. +20% per node by default, so +60% across all three. Set 0 to leave the lane with only its seabed walking. |
 | `shardAuraRadius` / `shardAuraDamage` / `shardMaxMerge` | Stable Skill Shard Block behaviour. |
 | `taskShardChance` / `taskShardCooldownSeconds` / `taskShardLuckBonus` | The rare shard drop from mining, building and harvesting: the per-action chance (0 disables), the per-player cooldown after a payout, and how much each point of luck multiplies the odds. |
 | `crateFishingWeight` / `crateReel*` | How often crates are fished up, and the opening animation. |
