@@ -7,7 +7,7 @@ A server-side mod that pins your world spawn to an exact block, locks down the a
 
 ## Requirements
 
-- Minecraft **26.2**, **Fabric** with Fabric API
+- Minecraft **26.3**, **26.2** or **26.1.2**, **Fabric** with Fabric API
 - Server-side; vanilla clients supported. In singleplayer the Mod Menu screen edits every setting.
 
 ## Download

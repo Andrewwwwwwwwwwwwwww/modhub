@@ -8,7 +8,7 @@ A collection of decorative and functional carts you attach to a mob with a lead 
 ## Requirements
 
 - **Fabric** with Fabric API
-- Available for Minecraft **26.2** and **26.1.2**
+- Available for Minecraft **26.3**, **26.2** and **26.1.2**
 
 ## Download
 

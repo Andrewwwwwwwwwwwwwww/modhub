@@ -7,7 +7,7 @@ description: Lootable corpses on death for fully vanilla clients — the whole m
 
 ## Requirements
 
-- Minecraft **26.2**
+- Minecraft **26.3** or **26.2**
 - A **Fabric** server with Fabric API
 - Install on **the server only** — players need nothing. (It also works in singleplayer, where it runs on the integrated server.)
 

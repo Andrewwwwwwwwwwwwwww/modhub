@@ -7,11 +7,11 @@ description: Wordle for crafting recipes — ten guesses to crack one secret rec
 
 ## Part of MCTGames
 
-Craftle now ships inside **[MCTGames](/modhub/mods/mctgames/)**, one mod with all three daily puzzles and a hub to pick from. The rules, boards and daily sequence on this page are unchanged in the bundle; the standalone mod is no longer updated. Remove the standalone jar before installing the bundle.
+Craftle also ships inside **[MCTGames](/modhub/mods/mctgames/)**, one mod with all three daily puzzles and a hub to pick from. The rules, boards and daily sequence on this page are the same either way. Run one or the other, not both — remove the standalone jar before installing the bundle.
 
 ## Requirements
 
-- Minecraft **26.2**, **Fabric** with Fabric API
+- Minecraft **26.3** or **26.2**, **Fabric** with Fabric API
 - Install on **both client and server**. In singleplayer it just works. Players without the mod can't open the board; the command tells them what's missing, and nothing else breaks for them.
 
 ## Download

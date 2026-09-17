@@ -7,7 +7,7 @@ description: A single-server Minecraft <-> Discord bridge — live status in a c
 
 ## Requirements
 
-- Minecraft **26.2**, **Fabric** with Fabric API
+- Minecraft **26.3**, **26.2** or **26.1.2**, **Fabric** with Fabric API
 - Server-side (vanilla clients are fine).
 
 ## Download

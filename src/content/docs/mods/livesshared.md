@@ -1,9 +1,9 @@
 ---
-title: SharedLives
+title: Lives Shared
 description: One life for the whole server — health, hunger, inventory, ender chest, experience and status effects are pooled, and every share is its own switch.
 ---
 
-**SharedLives** gives everyone on the server one life between them. Health, hunger, inventory, ender chest, experience and status effects are pooled: a hit taken by one of you is taken by all of you, an item picked up by one appears in everyone's inventory, and when one of you dies, the rest fall with them.
+**Lives Shared** gives everyone on the server one life between them. Health, hunger, inventory, ender chest, experience and status effects are pooled: a hit taken by one of you is taken by all of you, an item picked up by one appears in everyone's inventory, and when one of you dies, the rest fall with them.
 
 Everything runs on the server, so **players connect with completely vanilla clients**. Drop the jar in the server's `mods` folder and every player shares the same life, whether they mod their client or not.
 
@@ -11,7 +11,7 @@ It appears in the mods list as **Lives Shared**.
 
 ## Requirements
 
-- Minecraft **26.2** or **26.1.2**
+- Minecraft **26.3**, **26.2** or **26.1.2**
 - **Fabric** with Fabric API, or **NeoForge**
 - Install on **the server only** — players need nothing. It also works in singleplayer, where one player is indistinguishable from vanilla.
 

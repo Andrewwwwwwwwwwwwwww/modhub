@@ -9,7 +9,7 @@ If you run VanillaSkills you **already receive these automatically** (the server
 
 ## Requirements
 
-- Minecraft **26.2** or **26.1.2** (any loader — it's a resource pack)
+- Minecraft **26.1.2** through **26.3** (any loader — it's a resource pack)
 
 ## Download
 

@@ -7,7 +7,7 @@ When you die, your stuff normally scatters across the ground and ticks down to n
 
 ## Requirements
 
-- Minecraft **26.2** or **26.1.2**
+- Minecraft **26.1.2**, **26.2** or **26.3** — one jar covers all three
 - **Fabric** with Fabric API
 - Install on **both the client and the server** — this is not a server-only mod.
 

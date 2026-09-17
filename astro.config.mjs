@@ -7,6 +7,13 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	site: 'https://Andrewwwwwwwwwwwwwww.github.io',
 	base: '/modhub',
+	// The two pages below were published under the names the CurseForge listings still carry.
+	// The mods themselves are Lives Shared and ShopGuard, so the pages moved; keep the old paths
+	// working for anything already linking to them.
+	redirects: {
+		'/mods/sharedlives/': '/mods/livesshared/',
+		'/mods/simplelandclaim/': '/mods/shopguard/',
+	},
 	integrations: [
 		starlight({
 			title: 'ModHub',
@@ -49,7 +56,7 @@ export default defineConfig({
 							],
 						},
 						{ label: 'The Hungering Portal', link: '/mods/thp/' },
-						{ label: 'SharedLives', link: '/mods/sharedlives/' },
+						{ label: 'Lives Shared', link: '/mods/livesshared/' },
 						{ label: "Traveler's Backpack Extras", link: '/mods/tbextra/' },
 						{ label: 'Villager Shop', link: '/mods/villagershop/' },
 						{ label: 'Spawn Management', link: '/mods/spawnmanager/' },
@@ -58,7 +65,10 @@ export default defineConfig({
 						{ label: 'UsefulCarts', link: '/mods/usefulcarts/' },
 						{ label: 'BedrockToolBehavior', link: '/mods/bedrocktoolbehavior/' },
 						{ label: 'ItemSaver', link: '/mods/itemsaver/' },
-						{ label: 'SimpleLandClaim', link: '/mods/simplelandclaim/' },
+						{ label: 'ShopGuard', link: '/mods/shopguard/' },
+						{ label: 'ChatFaces', link: '/mods/chatfaces/' },
+						{ label: 'Rough Life', link: '/mods/roughlife/' },
+						{ label: 'MCAutoFish', link: '/mods/mcautofish/' },
 					],
 				},
 			],

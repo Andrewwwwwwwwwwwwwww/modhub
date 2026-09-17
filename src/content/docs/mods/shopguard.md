@@ -1,5 +1,5 @@
 ---
-title: SimpleLandClaim
+title: ShopGuard
 description: Golden-shovel land claims that protect against griefing, with carveable shapes and admin claim zones.
 ---
 
@@ -7,7 +7,7 @@ A land-claim and grief-protection mod that's fully server-side — vanilla clien
 
 ## Requirements
 
-- Minecraft **26.2**, **Fabric** with Fabric API
+- Minecraft **26.3** or **26.2**, **Fabric** with Fabric API
 - Server-side; vanilla clients supported.
 
 ## Download

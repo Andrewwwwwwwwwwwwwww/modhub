@@ -9,7 +9,7 @@ Client-side only. It works in singleplayer and on **any server, vanilla included
 
 ## Requirements
 
-- Minecraft **26.2**
+- Minecraft **26.3** or **26.2**
 - **Fabric** with Fabric API, or **NeoForge**
 - Client only — servers need nothing.
 

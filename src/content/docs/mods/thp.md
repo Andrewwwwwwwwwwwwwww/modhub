@@ -7,7 +7,7 @@ The End portal doesn't simply open anymore — it **hungers**. Even lit with twe
 
 ## Requirements
 
-- Minecraft **26.2** or **26.1.2**, **Fabric** with Fabric API
+- Minecraft **26.3**, **26.2** or **26.1.2**, **Fabric** with Fabric API
 - Works installed on the **server alone** (clients can be vanilla); install on clients too for the config screen.
 
 ## Download

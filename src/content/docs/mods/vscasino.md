@@ -11,8 +11,8 @@ play with nothing installed, and the card and chip artwork is pushed to them aut
 
 ## Requirements
 
-- Minecraft **26.2** or **26.1.2**, **Fabric** with Fabric API
-- **VanillaSkills 1.7.5 or newer** (same Minecraft version), including **2.x**. Take **VSCasino 1.0.2 or newer** with it: earlier builds could leave gold blocks untextured on vanilla clients — 1.0.1 fixed the pack itself, and 1.0.2 also repairs servers whose `casino.json` was written under 1.0.0 and kept pushing the old pack.
+- Minecraft **26.3**, **26.2** or **26.1.2**, **Fabric** with Fabric API
+- **VanillaSkills 2.0.0 or newer** (same Minecraft version). The casino hangs off the skill menu API that the 2.0 rework changed, so a 1.7.x VanillaSkills will not carry it. Take **VSCasino 1.0.2 or newer** with it: earlier builds could leave gold blocks untextured on vanilla clients — 1.0.1 fixed the pack itself, and 1.0.2 also repairs servers whose `casino.json` was written under 1.0.0 and kept pushing the old pack.
 
 ## Download
 

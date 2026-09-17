@@ -62,6 +62,6 @@ You don't need both — players only need the Player Pack, and a host only needs
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/vanilla-skills)
 - [GitHub — Fabric, 26.3](https://github.com/Andrewwwwwwwwwwwwwww/vanillaskills)
 - [GitHub — Fabric, 26.2](https://github.com/Andrewwwwwwwwwwwwwww/vanillaskills-mc26.2)
-- [GitHub — NeoForge, 26.2](https://github.com/Andrewwwwwwwwwwwwwww/vanillaskills-neoforge)
+- [GitHub — NeoForge, 26.3 and 26.2](https://github.com/Andrewwwwwwwwwwwwwww/vanillaskills-neoforge) (26.2 on the `mc26.2` branch)
 - [GitHub — Fabric, 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/vanillaskills-mc26.1.2)
 - [GitHub — NeoForge, 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/vanillaskills-neoforge-mc26.1.2)
