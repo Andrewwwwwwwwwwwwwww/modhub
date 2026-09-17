@@ -88,5 +88,5 @@ Before 1.3.0, a body that failed to spawn cleared the player's inventory anyway 
 
 ## Links
 
-- [GitHub — 26.2](https://github.com/Andrewwwwwwwwwwwwwww/fallen)
-- [GitHub — 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/fallen-mc26.1.2)
+- [GitHub](https://github.com/Andrewwwwwwwwwwwwwww/fallen)
+- [Latest release](https://github.com/Andrewwwwwwwwwwwwwww/fallen/releases/latest)

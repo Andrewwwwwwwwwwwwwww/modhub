@@ -1,9 +1,9 @@
 ---
-title: ServerStatusDiscord
+title: SSD — Server Status to Discord
 description: A single-server Minecraft <-> Discord bridge — live status in a channel topic, two-way chat with skin-head avatars, account linking, an OP-gated console channel, and in-game @mentions.
 ---
 
-**ServerStatusDiscord (SSD)** bridges one Minecraft server and one Discord server: a live status line in your chat channel's topic, two-way chat with skin-head avatars, MC-first account linking, an OP-gated console channel, in-game `@mentions`, and an update checker.
+**SSD** bridges one Minecraft server and one Discord server: a live status line in your chat channel's topic, two-way chat with skin-head avatars, MC-first account linking, an OP-gated console channel, in-game `@mentions`, and an update checker.
 
 ## Requirements
 
@@ -11,6 +11,8 @@ description: A single-server Minecraft <-> Discord bridge — live status in a c
 - Server-side (vanilla clients are fine).
 
 ## Download
+
+Listed on CurseForge as **Mc to Discord Bridge**.
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/server-status-to-discord)
 

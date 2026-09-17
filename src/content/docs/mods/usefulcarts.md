@@ -35,5 +35,5 @@ UsefulCarts is released under the **MIT license**, with the original copyright r
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/usefulcarts)
 - [Modrinth](https://modrinth.com/mod/useful-carts)
-- [GitHub — 26.2](https://github.com/Andrewwwwwwwwwwwwwww/usefulcarts)
+- [GitHub — 26.3 and 26.2](https://github.com/Andrewwwwwwwwwwwwwww/usefulcarts) (each on its own `mc26.x-usefulcarts-port` branch)
 - [GitHub — 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/usefulcarts-mc26.1.2)

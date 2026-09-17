@@ -1,5 +1,5 @@
 ---
-title: Spawn Management
+title: Spawn Manager
 description: Set an exact world spawn, protect the area around it, and add random-wilderness travel with placeable portals.
 ---
 
@@ -11,6 +11,8 @@ A server-side mod that pins your world spawn to an exact block, locks down the a
 - Server-side; vanilla clients supported. In singleplayer the Mod Menu screen edits every setting.
 
 ## Download
+
+Listed on CurseForge as **Spawn Management**.
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/spawn-management)
 

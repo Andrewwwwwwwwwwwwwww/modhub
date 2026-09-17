@@ -27,5 +27,5 @@ Let players set up their own villager-run shops. An owner spawns a shop villager
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/villagerbased-playershops)
 - [Modrinth](https://modrinth.com/mod/villagerbased-playershops)
-- [GitHub — 26.2](https://github.com/Andrewwwwwwwwwwwwwww/villagershop)
+- [GitHub — 26.3 and 26.2](https://github.com/Andrewwwwwwwwwwwwwww/villagershop) (26.2 on the `mc26.2` branch)
 - [GitHub — 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/villagershop-mc26.1.2)

@@ -17,6 +17,8 @@ It appears in the mods list as **Lives Shared**.
 
 ## Download
 
+Listed on CurseForge as **SharedLives**.
+
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sharedlives)
 
 ## Adding it to a world that already exists

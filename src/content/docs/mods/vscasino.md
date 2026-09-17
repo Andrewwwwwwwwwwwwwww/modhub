@@ -96,6 +96,6 @@ Every string, including the playing cards and all the rules books, lives in the 
 
 ## Links
 
-- [GitHub — 26.2](https://github.com/Andrewwwwwwwwwwwwwww/vscasino)
+- [GitHub — 26.3 and 26.2](https://github.com/Andrewwwwwwwwwwwwwww/vscasino) (26.2 on the `mc26.2` branch)
 - [GitHub — 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/vscasino-mc26.1.2)
 - [VanillaSkills](/modhub/mods/vanillaskills/) — required

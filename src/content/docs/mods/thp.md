@@ -47,5 +47,5 @@ Beyond the portal waits a reworked, **multi-phase Ender Dragon** — five phases
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/the-hungering-portal)
 - [Modrinth](https://modrinth.com/mod/thp-the-hungering-portal)
-- [GitHub — 26.2](https://github.com/Andrewwwwwwwwwwwwwww/thp)
+- [GitHub — 26.3 and 26.2](https://github.com/Andrewwwwwwwwwwwwwww/thp) (26.2 on the `mc26.2` branch)
 - [GitHub — 26.1.2](https://github.com/Andrewwwwwwwwwwwwwww/thp-mc26.1.2)

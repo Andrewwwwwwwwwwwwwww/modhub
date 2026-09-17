@@ -12,6 +12,8 @@ A land-claim and grief-protection mod that's fully server-side — vanilla clien
 
 ## Download
 
+Listed on CurseForge and Modrinth as **SLC-SimpleLandClaim**.
+
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/slc-simplelandclaim)
 - [Modrinth](https://modrinth.com/mod/slc-simplelandclaim)
 
