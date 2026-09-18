@@ -68,7 +68,6 @@ export default defineConfig({
 						{ label: 'MC-AutoFish', link: '/mods/mcautofish/' },
 						{ label: 'ShopGuard', link: '/mods/shopguard/' },
 						{ label: 'ChatFaces', link: '/mods/chatfaces/' },
-						{ label: 'Rough Life', link: '/mods/roughlife/' },
 					],
 				},
 			],
