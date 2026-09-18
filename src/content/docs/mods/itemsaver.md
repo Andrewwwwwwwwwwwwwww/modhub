@@ -13,6 +13,10 @@ Client-side only. It works in singleplayer and on **any server, vanilla included
 - **Fabric** with Fabric API, or **NeoForge**
 - Client only — servers need nothing.
 
+## Download
+
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/itemsaver)
+
 ## Features
 
 - **Armor Guard** — the moment a helmet, chestplate, leggings or boots drop to their last 10 durability points, the piece is moved into your inventory. A full inventory is reported on the action bar instead of failing quietly, so you are never left thinking you were covered when you weren't.

@@ -15,8 +15,7 @@ Client-side only. It works in singleplayer and on **any server, vanilla included
 
 ## Download
 
-- [GitHub — Fabric](https://github.com/Andrewwwwwwwwwwwwwww/bedrocktoolbehavior/releases/latest)
-- [GitHub — NeoForge](https://github.com/Andrewwwwwwwwwwwwwww/bedrocktoolbehavior-neoforge/releases/latest)
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/bedrocktoolbehavior)
 
 ## Why Java feels different
 

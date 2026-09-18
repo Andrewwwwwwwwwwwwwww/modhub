@@ -14,7 +14,7 @@ description: A single-server Minecraft <-> Discord bridge — live status in a c
 
 Listed on CurseForge as **Mc to Discord Bridge**.
 
-- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/server-status-to-discord)
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mc-to-discord-bridge)
 
 ## Features
 

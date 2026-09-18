@@ -65,6 +65,7 @@ export default defineConfig({
 						{ label: 'UsefulCarts', link: '/mods/usefulcarts/' },
 						{ label: 'BedrockToolBehavior', link: '/mods/bedrocktoolbehavior/' },
 						{ label: 'ItemSaver', link: '/mods/itemsaver/' },
+						{ label: 'MC-AutoFish', link: '/mods/mcautofish/' },
 						{ label: 'ShopGuard', link: '/mods/shopguard/' },
 						{ label: 'ChatFaces', link: '/mods/chatfaces/' },
 						{ label: 'Rough Life', link: '/mods/roughlife/' },

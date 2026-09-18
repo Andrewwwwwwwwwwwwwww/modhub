@@ -13,7 +13,9 @@ description: Each player's head drawn next to their name in chat — server-side
 
 ## Download
 
-- [GitHub releases](https://github.com/Andrewwwwwwwwwwwwwww/chatfaces/releases)
+Listed on CurseForge as **Chat Heads (Server Sided)**.
+
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/chat-heads-server-sided)
 
 ## How it works
 
