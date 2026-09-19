@@ -22,7 +22,7 @@ description: Craftle, Connectle and CrossCraft in one mod, with a hub and a hotk
 
 ## Upgrading from the standalone mods
 
-Your games, stats and streaks are imported from the old save files on the first start, each once and only into empty slots; the old files are never modified. Each game deals exactly the same puzzle on a given day as its standalone did, so a server that upgrades keeps its daily sequence.
+Your games, stats and streaks are imported from the old save files on the first start, each once and only into empty slots; the old files are never modified. Streaks carry over, but the daily sequence does not: MCTGames 1.4.0 added Minecraft 26.3 puzzles to all three pools, and because the deal is drawn from the pool size, a given day now maps to a different puzzle than the standalone mods deal.
 
 1. Take a world backup.
 2. Stop the server.

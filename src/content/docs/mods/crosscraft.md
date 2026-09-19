@@ -15,7 +15,7 @@ CrossCraft now ships inside **[MCTGames](/modhub/mods/mctgames/)**, one mod with
 
 ## Requirements
 
-- Minecraft **26.2**, **Fabric** with Fabric API
+- Minecraft **26.2**, **Fabric** with Fabric API. For Minecraft **26.3** or **26.1.2**, or for **NeoForge**, install [MCTGames](/modhub/mods/mctgames/) instead.
 - Install on **both client and server**. In singleplayer it just works. Players without the mod can't open the board, and nothing else breaks for them.
 
 ## Download
@@ -51,7 +51,7 @@ The clock runs while the board is open; close it to pause. Solve the daily and t
 - **Practice mode** that never deals you today's daily, so it can't spoil it.
 - **High contrast mode** with a colourblind-safe palette.
 - **Nothing to cheat with.** The server holds the answers and keeps the clock. Your client only ever gets the shape of the grid and the clues; the letters travel the other way, and the solution only arrives once the game is over.
-- **260 grids** built from a hand-written bank of about 690 Minecraft answers, dealt like a deck so none repeats within a cycle.
+- **290 grids** in MCTGames (the standalone mod stopped at 260), built from a hand-written bank of about 700 Minecraft answers, dealt like a deck so none repeats within a cycle.
 - **Saves your progress.** Log out mid-grid and pick up where you left off, clock included.
 - **Login nudge.** A clickable `/crosscraft` in chat when a new daily is waiting.
 

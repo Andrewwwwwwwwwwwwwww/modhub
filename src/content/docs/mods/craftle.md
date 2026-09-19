@@ -50,8 +50,8 @@ The output slot shows what your current arrangement would actually craft. Your l
 - **Practice mode** that never deals you today's daily, so it can't spoil it.
 - **High contrast mode** for colourblind players, swapping green and orange for blue and orange.
 - **Nothing to cheat with.** The server holds the answer and grades your guesses. The answer never reaches your client until the game is over.
-- **The same puzzle everywhere.** The pool is 127 vanilla recipes baked into the mod, not read from whatever a server happens to have loaded, so datapacks and other mods can't hand your server a different daily.
-- **Dealt like a deck.** Every puzzle comes up exactly once per 127-day cycle, never two days running.
+- **The same puzzle everywhere.** The pool is 129 vanilla recipes baked into the mod, not read from whatever a server happens to have loaded, so datapacks and other mods can't hand your server a different daily.
+- **Dealt like a deck.** Every puzzle comes up exactly once per 129-day cycle, never two days running.
 - **Saves your progress.** Log out mid-puzzle and pick up exactly where you left off.
 - **Login nudge.** A clickable `/craftle` in chat when a new daily is waiting.
 

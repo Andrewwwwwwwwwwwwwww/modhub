@@ -18,7 +18,7 @@ Connectle now ships inside **[MCTGames](/modhub/mods/mctgames/)**, one mod with 
 
 ## Requirements
 
-- Minecraft **26.2**, **Fabric** with Fabric API
+- Minecraft **26.2**, **Fabric** with Fabric API. For Minecraft **26.3** or **26.1.2**, or for **NeoForge**, install [MCTGames](/modhub/mods/mctgames/) instead.
 - Install on **both client and server**. In singleplayer it just works. Players without the mod can't open the board, and nothing else breaks for them.
 
 ## Download
@@ -54,7 +54,7 @@ Every group has to be submitted, the last one included. **Shuffle** rearranges t
 - **Practice mode** that never deals you today's daily, so it can't spoil it.
 - **High contrast mode** with a colourblind-safe palette and numbered banners.
 - **Nothing to cheat with.** The server holds the group memberships and grades your guesses. Your client only learns which tiles go together once a group is solved or the game is over.
-- **Hand-written boards**, every one built from vanilla items, dealt like a deck so none repeats within a cycle.
+- **Sixty hand-written boards** in MCTGames (the standalone mod stopped at 52), every one built from vanilla items, dealt like a deck so none repeats within a cycle. Boards built from Minecraft 26.3 items are skipped by servers on older versions.
 - **Saves your progress.** Log out mid-board and pick up where you left off.
 - **Login nudge.** A clickable `/connectle` in chat when a new daily is waiting.
 
